@@ -1,0 +1,2 @@
+Invoking command in '/home/ros_ws/build/my_cpp_pkg': /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16
+Invoked command in '/home/ros_ws/build/my_cpp_pkg' returned '2': /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16

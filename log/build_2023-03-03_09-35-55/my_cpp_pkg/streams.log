@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16
+[0.053s] [35m[1mScanning dependencies of target add_two_ints_server[0m
+[0.070s] [ 66%] Built target add_two_ints_client
+[0.070s] [ 66%] Built target add_two_ints_client_no_oop
+[0.077s] [ 83%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.832s] [100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[1.966s] [100%] Built target add_two_ints_server
+[1.978s] Invoked command in '/home/ros_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16
+[2.011s] Invoking command in '/home/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros_ws/build/my_cpp_pkg
+[2.018s] -- Install configuration: ""
+[2.018s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[2.019s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[2.019s] -- Installing: /home/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[2.019s] -- Set runtime path of "/home/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.020s] -- Installing: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.020s] -- Installing: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.020s] -- Installing: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.020s] -- Installing: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.020s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.021s] -- Up-to-date: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.021s] -- Installing: /home/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.023s] Invoked command in '/home/ros_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros_ws/build/my_cpp_pkg

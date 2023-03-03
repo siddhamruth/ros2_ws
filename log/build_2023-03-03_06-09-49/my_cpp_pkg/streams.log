@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/ros_ws/build/my_cpp_pkg': /usr/bin/cmake /home/ros_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/my_cpp_pkg
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.112s] -- The CXX compiler identification is GNU 9.4.0
+[0.116s] -- Check for working C compiler: /usr/bin/cc
+[0.172s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.172s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.301s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.381s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.381s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.381s]   has asked CMake to find a package configuration file provided by
+[0.381s]   "ament_cmake", but CMake did not find one.
+[0.381s] 
+[0.381s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.382s]   any of the following names:
+[0.382s] 
+[0.382s]     ament_cmakeConfig.cmake
+[0.382s]     ament_cmake-config.cmake
+[0.382s] 
+[0.382s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.382s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.382s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.382s]   has been installed.
+[0.382s] 
+[0.382s] 
+[0.382s] -- Configuring incomplete, errors occurred!
+[0.382s] See also "/home/ros_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.384s] Invoked command in '/home/ros_ws/build/my_cpp_pkg' returned '1': /usr/bin/cmake /home/ros_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/my_cpp_pkg

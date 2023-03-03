@@ -9,6 +9,12 @@ services:
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:ro
       - /home/pravaig/Documents/git/ros_ws:/home/ros_ws
+    # user: pravaig
+    #user: "$(id -u):$(id -g)" 
+    # environment:
+    # - HOST_UID=1000
+    command: 
+    # - "chown -R ${HOST_UID}:${HOST_UID} /home/ros_ws/"
+    - bash
     tty: true
     stdin_open: true
-    command: bash
