@@ -1,1 +1,1 @@
-/home/ros_ws/install/my_py_pkg:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/opt/ros/foxy
+/home/ros_ws/install/my_py_pkg:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/batt_led:/home/ros_ws/install/bat_led_interfaces:/opt/ros/foxy

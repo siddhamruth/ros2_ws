@@ -1,0 +1,7 @@
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:[m[K In member function ‘[01m[Kvoid LedPannelServerNode::publishLedStates()[m[K’:
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:39:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K][m[K’ token
+   39 |         msg.led_states[[01;31m[K][m[K = leds;
+      |                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/led_pannel.dir/build.make:63: CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/led_pannel.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

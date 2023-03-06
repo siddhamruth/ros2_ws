@@ -1,0 +1,29 @@
+[0.041s] Invoking command in '/home/ros_ws/build/batt_led': AMENT_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.077s] [35m[1mScanning dependencies of target battery[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[1.125s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:46:22:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[1.125s]    46 |     float led_number([01;31m[K0[m[K);
+[1.125s]       |                      [01;31m[K^[m[K
+[1.126s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:46:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[1.126s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:47:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[1.126s]    47 |     float led_state([01;31m[K0[m[K);
+[1.126s]       |                     [01;31m[K^[m[K
+[1.126s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:47:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[1.134s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:[m[K In member function ‘[01m[Kvoid Battery::run_timer_thread()[m[K’:
+[1.134s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:17:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kfloat Battery::led_number(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.135s]    17 |         [01;31m[Kled_number[m[K = 2;
+[1.135s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.135s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:18:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kfloat Battery::led_number(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.135s]    18 |         [01;31m[Kled_number[m[K ^= 1;
+[1.135s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.143s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:[m[K In member function ‘[01m[Kvoid Battery::callSetLedService()[m[K’:
+[1.143s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:29:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KBattery::led_number[m[K’ from type ‘[01m[Kfloat (Battery::)(int)[m[K’ to type ‘[01m[Kbat_led_interfaces::srv::SetLed_Request_<std::allocator<void> >::_led_number_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.144s]    29 |         request->led_number = [01;31m[Kled_number[m[K;
+[1.144s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[1.144s] [01m[K/home/ros_ws/src/batt_led/src/battery.cpp:30:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KBattery::led_number[m[K’ from type ‘[01m[Kfloat (Battery::)(int)[m[K’ to type ‘[01m[Kbat_led_interfaces::srv::SetLed_Request_<std::allocator<void> >::_state_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.144s]    30 |         request->state = [01;31m[Kled_number[m[K;
+[1.144s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[1.602s] make[2]: *** [CMakeFiles/battery.dir/build.make:63: CMakeFiles/battery.dir/src/battery.cpp.o] Error 1
+[1.602s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/battery.dir/all] Error 2
+[1.603s] make: *** [Makefile:141: all] Error 2
+[1.604s] Invoked command in '/home/ros_ws/build/batt_led' returned '2': AMENT_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16

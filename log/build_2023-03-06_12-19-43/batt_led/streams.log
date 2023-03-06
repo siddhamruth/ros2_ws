@@ -1,0 +1,28 @@
+[0.202s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:/home/ros_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.247s] [35m[1mScanning dependencies of target battery[0m
+[0.274s] [ 75%] Built target led_pannel
+[0.274s] [ 75%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[2.465s] [100%] [32m[1mLinking CXX executable battery[0m
+[2.624s] [100%] Built target battery
+[2.636s] Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:/home/ros_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[2.659s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:/home/ros_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_ws/build/batt_led
+[2.667s] -- Install configuration: ""
+[2.668s] -- Installing: /home/ros_ws/install/batt_led/lib/batt_led/battery
+[2.668s] -- Set runtime path of "/home/ros_ws/install/batt_led/lib/batt_led/battery" to ""
+[2.668s] -- Up-to-date: /home/ros_ws/install/batt_led/lib/batt_led/led_pannel
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/ament_index/resource_index/package_run_dependencies/batt_led
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/ament_index/resource_index/parent_prefix_path/batt_led
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.sh
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.dsv
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/path.sh
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/path.dsv
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.bash
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.sh
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.zsh
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.dsv
+[2.669s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/package.dsv
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/ament_index/resource_index/packages/batt_led
+[2.669s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig.cmake
+[2.670s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig-version.cmake
+[2.670s] -- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/package.xml
+[2.674s] Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:/home/ros_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_ws/build/batt_led

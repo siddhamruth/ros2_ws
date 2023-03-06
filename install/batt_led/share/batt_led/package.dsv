@@ -1,0 +1,8 @@
+source;share/batt_led/hook/cmake_prefix_path.ps1
+source;share/batt_led/hook/cmake_prefix_path.dsv
+source;share/batt_led/hook/cmake_prefix_path.sh
+source;share/batt_led/local_setup.bash
+source;share/batt_led/local_setup.dsv
+source;share/batt_led/local_setup.ps1
+source;share/batt_led/local_setup.sh
+source;share/batt_led/local_setup.zsh

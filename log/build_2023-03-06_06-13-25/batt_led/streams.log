@@ -1,0 +1,14 @@
+[0.182s] Invoking command in '/home/ros_ws/build/batt_led': AMENT_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.217s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.235s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.386s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.387s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.387s]   before
+[0.387s] Call Stack (most recent call first):
+[0.387s]   CMakeLists.txt:26 (ament_target_dependencies)
+[0.387s] 
+[0.388s] 
+[0.388s] -- Configuring incomplete, errors occurred!
+[0.388s] See also "/home/ros_ws/build/batt_led/CMakeFiles/CMakeOutput.log".
+[0.391s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.393s] Invoked command in '/home/ros_ws/build/batt_led' returned '2': AMENT_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_ws/install/bat_led_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16

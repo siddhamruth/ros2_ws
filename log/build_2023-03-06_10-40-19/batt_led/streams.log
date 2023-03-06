@@ -1,0 +1,84 @@
+[0.185s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.207s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.226s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.366s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.398s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.611s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.612s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.731s] -- Found bat_led_interfaces: 0.0.0 (/home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake)
+[0.786s] -- Configuring done
+[0.797s] -- Generating done
+[0.798s] -- Build files have been written to: /home/ros_ws/build/batt_led
+[0.826s] [35m[1mScanning dependencies of target led_pannel[0m
+[0.829s] [35m[1mScanning dependencies of target battery[0m
+[0.848s] [ 25%] [32mBuilding CXX object CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o[0m
+[0.851s] [ 50%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[1.846s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:43:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_state_array[m[K’ is not a member of ‘[01m[Kbat_led_interfaces::msg[m[K’; did you mean ‘[01m[KLedStateArray[m[K’?
+[1.846s]    43 |     rclcpp::Publisher<bat_led_interfaces::msg::[01;31m[Kled_state_array[m[K>::SharedPtr publisher_;
+[1.847s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.847s]       |                                                [32m[KLedStateArray[m[K
+[1.847s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:43:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_state_array[m[K’ is not a member of ‘[01m[Kbat_led_interfaces::msg[m[K’; did you mean ‘[01m[KLedStateArray[m[K’?
+[1.847s]    43 |     rclcpp::Publisher<bat_led_interfaces::msg::[01;31m[Kled_state_array[m[K>::SharedPtr publisher_;
+[1.847s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.847s]       |                                                [32m[KLedStateArray[m[K
+[1.847s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:43:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.847s]    43 |     rclcpp::Publisher<bat_led_interfaces::msg::led_state_array[01;31m[K>[m[K::SharedPtr publisher_;
+[1.848s]       |                                                               [01;31m[K^[m[K
+[1.848s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:43:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.848s]    43 |     rclcpp::Publisher<bat_led_interfaces::msg::led_state_array>::[01;31m[KSharedPtr[m[K publisher_;
+[1.848s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[1.848s]       |                                                                           [32m[K;[m[K
+[1.849s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:43:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.849s]    43 |     rclcpp::Publisher<bat_led_interfaces::msg::led_state_array>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.849s]       |                                                                            [01;31m[K^~~~~~~~~~[m[K
+[1.849s]       |                                                                            [32m[Krcl_publisher_t[m[K
+[1.858s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:[m[K In constructor ‘[01m[KLedPannelServerNode::LedPannelServerNode()[m[K’:
+[1.859s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.859s]    18 |         [01;31m[Kpublisher_[m[K = this->create_publisher<bat_led_interfaces::msg::led_state_array>("led_states", 10);
+[1.859s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.859s]       |         [32m[Krcl_publisher_t[m[K
+[1.859s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:18:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_state_array[m[K’ is not a member of ‘[01m[Kbat_led_interfaces::msg[m[K’; did you mean ‘[01m[KLedStateArray[m[K’?
+[1.859s]    18 |         publisher_ = this->create_publisher<bat_led_interfaces::msg::[01;31m[Kled_state_array[m[K>("led_states", 10);
+[1.859s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.859s]       |                                                                      [32m[KLedStateArray[m[K
+[1.859s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:18:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_state_array[m[K’ is not a member of ‘[01m[Kbat_led_interfaces::msg[m[K’; did you mean ‘[01m[KLedStateArray[m[K’?
+[1.860s]    18 |         publisher_ = this->create_publisher<bat_led_interfaces::msg::[01;31m[Kled_state_array[m[K>("led_states", 10);
+[1.860s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.860s]       |                                                                      [32m[KLedStateArray[m[K
+[1.860s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:18:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLedPannelServerNode::create_publisher<<expression error> >(const char [11], int)[m[K’
+[1.860s]    18 | eate_publisher<bat_led_interfaces::msg::led_state_array>("led_states", 10[01;31m[K)[m[K;
+[1.860s]       |                                                                          [01;31m[K^[m[K
+[1.860s] 
+[1.860s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.861s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.861s]                  from [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:1[m[K:
+[1.861s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.861s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.861s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.861s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:18:103:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.861s]    18 | eate_publisher<bat_led_interfaces::msg::led_state_array>("led_states", 10[01;31m[K)[m[K;
+[1.861s]       |                                                                          [01;31m[K^[m[K
+[1.862s] 
+[1.873s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:[m[K In member function ‘[01m[Kvoid LedPannelServerNode::publishLedStates()[m[K’:
+[1.873s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:38:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_state_array[m[K’ is not a member of ‘[01m[Kbat_led_interfaces::msg[m[K’; did you mean ‘[01m[KLedStateArray[m[K’?
+[1.873s]    38 |         auto msg = bat_led_interfaces::msg::[01;31m[Kled_state_array[m[K();
+[1.873s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.873s]       |                                             [32m[KLedStateArray[m[K
+[1.874s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:39:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ was not declared in this scope
+[1.874s]    39 |         msg.led_states[3] = [01;31m[Kself[m[K.leds;
+[1.875s]       |                             [01;31m[K^~~~[m[K
+[1.877s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.877s]    40 |         [01;31m[Kpublisher_[m[K->publish(msg);
+[1.877s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.877s]       |         [32m[Krcl_publisher_t[m[K
+[2.254s] make[2]: *** [CMakeFiles/led_pannel.dir/build.make:63: CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o] Error 1
+[2.254s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/led_pannel.dir/all] Error 2
+[2.254s] make[1]: *** Waiting for unfinished jobs....
+[2.888s] [ 75%] [32m[1mLinking CXX executable battery[0m
+[3.025s] [ 75%] Built target battery
+[3.026s] make: *** [Makefile:141: all] Error 2
+[3.029s] Invoked command in '/home/ros_ws/build/batt_led' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16

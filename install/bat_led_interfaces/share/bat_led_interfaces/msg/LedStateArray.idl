@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from bat_led_interfaces/msg/LedStateArray.msg
+// generated code does not contain a copyright notice
+
+
+module bat_led_interfaces {
+  module msg {
+    typedef int64 int64__3[3];
+    struct LedStateArray {
+      int64__3 led_states;
+    };
+  };
+};

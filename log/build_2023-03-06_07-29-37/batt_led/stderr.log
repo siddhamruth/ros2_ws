@@ -1,0 +1,8 @@
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:[m[K In member function ‘[01m[Kvoid LedPannelServerNode::callbackSetLed(bat_led_interfaces::srv::SetLed_Request_<std::allocator<void> >::SharedPtr, bat_led_interfaces::srv::SetLed_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:22:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 |     void callbackSetLed([01;35m[Kconst bat_led_interfaces::srv::SetLed::Request::SharedPtr request[m[K,
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:23:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   23 |                        [01;35m[Kconst bat_led_interfaces::srv::SetLed::Response::SharedPtr response[m[K)
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+

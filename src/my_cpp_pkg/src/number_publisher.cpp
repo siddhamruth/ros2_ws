@@ -9,7 +9,8 @@ public:
         publisher_ = this->create_publisher<std_msgs::msg::Int64>("number", 10);
         timer_ = this->create_wall_timer(std::chrono::seconds(1), 
                                         std::bind(&NumberPublisher::publish_number, this));
-
+        this->declare_parameter("test_parameter");
+        std::string name = "amruth";
 
     }
 
@@ -25,6 +26,7 @@ void publish_number()
 rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher_;
 rclcpp::TimerBase::SharedPtr timer_;
 int number_;
+int test_parameter;
 
 };
 

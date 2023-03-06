@@ -1,0 +1,2 @@
+Invoking command in '/home/ros_ws/build/bat_led_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros_ws/src/bat_led_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/bat_led_interfaces
+Invoked command in '/home/ros_ws/build/bat_led_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros_ws/src/bat_led_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/bat_led_interfaces

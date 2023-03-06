@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000826] (-) JobUnselected: {'identifier': 'batt_led'}
+[0.000857] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000882] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000903] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000929] (bat_led_interfaces) JobQueued: {'identifier': 'bat_led_interfaces', 'dependencies': OrderedDict()}
+[0.000953] (bat_led_interfaces) JobStarted: {'identifier': 'bat_led_interfaces'}
+[0.012908] (bat_led_interfaces) JobProgress: {'identifier': 'bat_led_interfaces', 'progress': 'cmake'}
+[0.014064] (bat_led_interfaces) JobProgress: {'identifier': 'bat_led_interfaces', 'progress': 'build'}
+[0.014209] (bat_led_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/build/bat_led_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/build/bat_led_interfaces', 'env': OrderedDict([('HOSTNAME', '168bee2767c6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros_ws/install/bat_led_interfaces/lib'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros_ws/install/my_py_pkg:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('PWD', '/home/ros_ws/build/bat_led_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.049770] (bat_led_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.067021] (bat_led_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.067338] (bat_led_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099026] (-) TimerEvent: {}
+[0.199372] (-) TimerEvent: {}
+[0.233624] (bat_led_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.239500] (bat_led_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.246501] (bat_led_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299510] (-) TimerEvent: {}
+[0.399909] (-) TimerEvent: {}
+[0.437583] (bat_led_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.473271] (bat_led_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500068] (-) TimerEvent: {}
+[0.600452] (-) TimerEvent: {}
+[0.615541] (bat_led_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.700571] (-) TimerEvent: {}
+[0.764963] (bat_led_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.770642] (bat_led_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800685] (-) TimerEvent: {}
+[0.804119] (bat_led_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.804426] (bat_led_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.844683] (bat_led_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.844951] (bat_led_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.845079] (bat_led_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.884393] (bat_led_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.900860] (-) TimerEvent: {}
+[0.919944] (bat_led_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.922448] (bat_led_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ros_ws/build/bat_led_interfaces\n'}
+[0.966007] (bat_led_interfaces) StdoutLine: {'line': b'[  2%] Built target bat_led_interfaces__cpp\n'}
+[0.966319] (bat_led_interfaces) StdoutLine: {'line': b'[ 12%] Built target bat_led_interfaces__rosidl_generator_c\n'}
+[0.984112] (bat_led_interfaces) StdoutLine: {'line': b'[ 23%] Built target bat_led_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.984327] (bat_led_interfaces) StdoutLine: {'line': b'[ 33%] Built target bat_led_interfaces__rosidl_typesupport_cpp\n'}
+[0.985990] (bat_led_interfaces) StdoutLine: {'line': b'[ 43%] Built target bat_led_interfaces__rosidl_typesupport_c\n'}
+[1.000980] (-) TimerEvent: {}
+[1.003001] (bat_led_interfaces) StdoutLine: {'line': b'[ 53%] Built target bat_led_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.019542] (bat_led_interfaces) StdoutLine: {'line': b'[ 64%] Built target bat_led_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.045537] (bat_led_interfaces) StdoutLine: {'line': b'[ 74%] Built target bat_led_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.065713] (bat_led_interfaces) StdoutLine: {'line': b'[ 74%] Built target bat_led_interfaces\n'}
+[1.101085] (-) TimerEvent: {}
+[1.101313] (bat_led_interfaces) StdoutLine: {'line': b'[ 76%] Built target bat_led_interfaces__py\n'}
+[1.141598] (bat_led_interfaces) StdoutLine: {'line': b'[ 84%] Built target bat_led_interfaces__python\n'}
+[1.165034] (bat_led_interfaces) StdoutLine: {'line': b'[ 94%] Built target bat_led_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.165206] (bat_led_interfaces) StdoutLine: {'line': b'[ 94%] Built target bat_led_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.182546] (bat_led_interfaces) StdoutLine: {'line': b'[100%] Built target bat_led_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.192846] (bat_led_interfaces) CommandEnded: {'returncode': 0}
+[1.201227] (-) TimerEvent: {}
+[1.248315] (bat_led_interfaces) JobProgress: {'identifier': 'bat_led_interfaces', 'progress': 'install'}
+[1.259673] (bat_led_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros_ws/build/bat_led_interfaces'], 'cwd': '/home/ros_ws/build/bat_led_interfaces', 'env': OrderedDict([('HOSTNAME', '168bee2767c6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros_ws/install/bat_led_interfaces/lib'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros_ws/install/my_py_pkg:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('PWD', '/home/ros_ws/build/bat_led_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[1.268151] (bat_led_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.268459] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/ament_index/resource_index/rosidl_interfaces/bat_led_interfaces\n'}
+[1.268664] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces\n'}
+[1.268899] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg\n'}
+[1.269290] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail\n'}
+[1.269422] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__functions.c\n'}
+[1.269573] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__struct.h\n'}
+[1.269722] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__functions.h\n'}
+[1.269891] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__type_support.h\n'}
+[1.269951] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/led_pannel_state.h\n'}
+[1.270022] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.270075] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv\n'}
+[1.270129] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail\n'}
+[1.270207] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__type_support.h\n'}
+[1.270262] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__functions.c\n'}
+[1.270317] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__struct.h\n'}
+[1.270372] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__functions.h\n'}
+[1.270471] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/set_led.h\n'}
+[1.270564] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/library_path.sh\n'}
+[1.270644] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/library_path.dsv\n'}
+[1.270701] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_generator_c.so\n'}
+[1.270761] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces\n'}
+[1.270840] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg\n'}
+[1.270904] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail\n'}
+[1.270982] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.271036] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.271090] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv\n'}
+[1.271164] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail\n'}
+[1.271220] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[1.271274] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.271339] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces\n'}
+[1.271424] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg\n'}
+[1.271487] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail\n'}
+[1.271549] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.271630] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/dds_fastrtps\n'}
+[1.271689] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.271748] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv\n'}
+[1.271804] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail\n'}
+[1.271862] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.271921] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/dds_fastrtps\n'}
+[1.271980] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.272039] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces\n'}
+[1.272097] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg\n'}
+[1.272162] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail\n'}
+[1.272220] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__rosidl_typesupport_introspection_c.h\n'}
+[1.272278] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__type_support.c\n'}
+[1.272354] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.272418] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv\n'}
+[1.272475] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail\n'}
+[1.272534] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__type_support.c\n'}
+[1.272590] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[1.272648] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.272706] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_typesupport_c.so\n'}
+[1.272765] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces\n'}
+[1.272822] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg\n'}
+[1.272880] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail\n'}
+[1.272959] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__builder.hpp\n'}
+[1.273017] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__struct.hpp\n'}
+[1.273074] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__traits.hpp\n'}
+[1.273132] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/led_pannel_state.hpp\n'}
+[1.273191] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv\n'}
+[1.273247] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail\n'}
+[1.273303] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__builder.hpp\n'}
+[1.273360] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__traits.hpp\n'}
+[1.273416] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__struct.hpp\n'}
+[1.273472] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/set_led.hpp\n'}
+[1.273530] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces\n'}
+[1.273589] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg\n'}
+[1.273646] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail\n'}
+[1.273704] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__type_support.cpp\n'}
+[1.273763] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/msg/detail/led_pannel_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.273821] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv\n'}
+[1.273879] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail\n'}
+[1.273936] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__type_support.cpp\n'}
+[1.273998] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/include/bat_led_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.274055] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.274112] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.274171] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/pythonpath.sh\n'}
+[1.274234] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/pythonpath.dsv\n'}
+[1.274293] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/__init__.py\n'}
+[1.293823] (bat_led_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/__init__.py'...\n"}
+[1.297292] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/msg\n'}
+[1.297507] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/msg/_led_pannel_state.py\n'}
+[1.297632] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/msg/__init__.py\n'}
+[1.297748] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/msg/_led_pannel_state_s.c\n'}
+[1.297864] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/srv\n'}
+[1.298042] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/srv/_set_led.py\n'}
+[1.298230] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/srv/__init__.py\n'}
+[1.298384] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/srv/_set_led_s.c\n'}
+[1.298536] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/bat_led_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.298723] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/bat_led_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.299173] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages/bat_led_interfaces/bat_led_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.299520] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/lib/libbat_led_interfaces__python.so\n'}
+[1.299659] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/msg/LedPannelState.idl\n'}
+[1.299783] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/srv/SetLed.idl\n'}
+[1.299840] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/msg/LedPannelState.msg\n'}
+[1.299933] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/srv/SetLed.srv\n'}
+[1.300019] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/srv/SetLed_Request.msg\n'}
+[1.300083] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/srv/SetLed_Response.msg\n'}
+[1.300147] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/ament_index/resource_index/package_run_dependencies/bat_led_interfaces\n'}
+[1.300249] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/ament_index/resource_index/parent_prefix_path/bat_led_interfaces\n'}
+[1.300316] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/ament_prefix_path.sh\n'}
+[1.300380] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.300496] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/path.sh\n'}
+[1.300550] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/environment/path.dsv\n'}
+[1.300616] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/local_setup.bash\n'}
+[1.300693] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/local_setup.sh\n'}
+[1.300757] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/local_setup.zsh\n'}
+[1.300839] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/local_setup.dsv\n'}
+[1.300904] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/package.dsv\n'}
+[1.300969] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/ament_index/resource_index/packages/bat_led_interfaces\n'}
+[1.301060] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.301126] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.301239] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.301295] (-) TimerEvent: {}
+[1.301400] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.301498] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.301573] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.301657] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.301743] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.301839] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.301958] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.302077] (bat_led_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.302176] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.302282] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.302461] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.302850] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.302929] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.303005] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.303081] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.303156] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfacesConfig.cmake\n'}
+[1.303227] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/cmake/bat_led_interfacesConfig-version.cmake\n'}
+[1.303296] (bat_led_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/install/bat_led_interfaces/share/bat_led_interfaces/package.xml\n'}
+[1.304321] (bat_led_interfaces) CommandEnded: {'returncode': 0}
+[1.401511] (-) TimerEvent: {}
+[1.408847] (bat_led_interfaces) JobEnded: {'identifier': 'bat_led_interfaces', 'rc': 0}
+[1.409704] (-) EventReactorShutdown: {}

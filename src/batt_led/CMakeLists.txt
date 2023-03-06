@@ -15,11 +15,22 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(bat_led_interfaces REQUIRED)
+
+add_executable(battery src/battery.cpp)
+ament_target_dependencies(battery rclcpp bat_led_interfaces)
+
+add_executable(led_pannel src/led_pannel.cpp)
+ament_target_dependencies(led_pannel rclcpp bat_led_interfaces)
 
 
+install(TARGETS
+battery
+led_pannel
+DESTINATION lib/${PROJECT_NAME}
+)
 ament_package()
+
+

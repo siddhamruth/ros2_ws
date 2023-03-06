@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/bat_led_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/msg/detail/dds_fastrtps/led_pannel_state__type_support.cpp.o"
+  "CMakeFiles/bat_led_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o"
+  "CMakeFiles/bat_led_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o"
+  "libbat_led_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libbat_led_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/msg/detail/dds_fastrtps/led_pannel_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/msg/detail/led_pannel_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/bat_led_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/bat_led_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

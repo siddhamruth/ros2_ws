@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target battery[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[100%] [32m[1mLinking CXX executable battery[0m
+[100%] Built target battery
+-- Install configuration: ""
+-- Installing: /home/ros_ws/install/batt_led/lib/batt_led/battery
+-- Set runtime path of "/home/ros_ws/install/batt_led/lib/batt_led/battery" to ""
+-- Up-to-date: /home/ros_ws/install/batt_led/share/ament_index/resource_index/package_run_dependencies/batt_led
+-- Up-to-date: /home/ros_ws/install/batt_led/share/ament_index/resource_index/parent_prefix_path/batt_led
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/path.sh
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/environment/path.dsv
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.bash
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.sh
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.zsh
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/local_setup.dsv
+-- Installing: /home/ros_ws/install/batt_led/share/batt_led/package.dsv
+-- Up-to-date: /home/ros_ws/install/batt_led/share/ament_index/resource_index/packages/batt_led
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig.cmake
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig-version.cmake
+-- Up-to-date: /home/ros_ws/install/batt_led/share/batt_led/package.xml

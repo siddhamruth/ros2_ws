@@ -1,0 +1,8 @@
+{
+  "package_name": "bat_led_interfaces",
+  "non_idl_tuples": [
+    "/home/ros_ws/src/bat_led_interfaces:msg/LedPannelState.msg",
+    "/home/ros_ws/src/bat_led_interfaces:srv/SetLed.srv",
+    "/home/ros_ws/src/bat_led_interfaces:msg/LedStateArray.msg"
+  ]
+}

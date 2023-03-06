@@ -1,0 +1,17 @@
+/home/ros_ws/install/batt_led/lib/batt_led/battery
+/home/ros_ws/install/batt_led/lib/batt_led/led_pannel
+/home/ros_ws/install/batt_led/share/ament_index/resource_index/package_run_dependencies/batt_led
+/home/ros_ws/install/batt_led/share/ament_index/resource_index/parent_prefix_path/batt_led
+/home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.sh
+/home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.dsv
+/home/ros_ws/install/batt_led/share/batt_led/environment/path.sh
+/home/ros_ws/install/batt_led/share/batt_led/environment/path.dsv
+/home/ros_ws/install/batt_led/share/batt_led/local_setup.bash
+/home/ros_ws/install/batt_led/share/batt_led/local_setup.sh
+/home/ros_ws/install/batt_led/share/batt_led/local_setup.zsh
+/home/ros_ws/install/batt_led/share/batt_led/local_setup.dsv
+/home/ros_ws/install/batt_led/share/batt_led/package.dsv
+/home/ros_ws/install/batt_led/share/ament_index/resource_index/packages/batt_led
+/home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig.cmake
+/home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig-version.cmake
+/home/ros_ws/install/batt_led/share/batt_led/package.xml

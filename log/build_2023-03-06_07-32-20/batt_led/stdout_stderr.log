@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target led_pannel[0m
+[ 50%] Built target battery
+[ 75%] [32mBuilding CXX object CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o[0m
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kleds[m[K’ does not name a type
+   31 |     [01;31m[Kleds[m[K[3] = {0,0,0};
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:31:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   31 |     leds[3] = {0,0,0}[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+      |                      [31m[K-[m[K
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:[m[K In member function ‘[01m[Kvoid LedPannelServerNode::callbackSetLed(bat_led_interfaces::srv::SetLed_Request_<std::allocator<void> >::SharedPtr, bat_led_interfaces::srv::SetLed_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kleds[m[K’ was not declared in this scope
+   27 |         [01;31m[Kleds[m[K[request->led_number] = request->state;
+      |         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/led_pannel.dir/build.make:63: CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/led_pannel.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

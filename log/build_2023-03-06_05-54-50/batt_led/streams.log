@@ -1,0 +1,42 @@
+[0.021s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros_ws/src/batt_led -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/batt_led
+[0.069s] -- The C compiler identification is GNU 9.4.0
+[0.114s] -- The CXX compiler identification is GNU 9.4.0
+[0.118s] -- Check for working C compiler: /usr/bin/cc
+[0.175s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.176s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.243s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.316s] -- Detecting CXX compiler ABI info
+[0.386s] -- Detecting CXX compiler ABI info - done
+[0.396s] -- Detecting CXX compile features
+[0.396s] -- Detecting CXX compile features - done
+[0.402s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.425s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.662s] -- Configuring done
+[0.665s] -- Generating done
+[0.666s] -- Build files have been written to: /home/ros_ws/build/batt_led
+[0.670s] Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros_ws/src/batt_led -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/batt_led
+[0.673s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.720s] Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.739s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros_ws/build/batt_led
+[0.746s] -- Install configuration: ""
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/ament_index/resource_index/package_run_dependencies/batt_led
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/ament_index/resource_index/parent_prefix_path/batt_led
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.sh
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/environment/ament_prefix_path.dsv
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/environment/path.sh
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/environment/path.dsv
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/local_setup.bash
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/local_setup.sh
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/local_setup.zsh
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/local_setup.dsv
+[0.747s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/package.dsv
+[0.748s] -- Installing: /home/ros_ws/install/batt_led/share/ament_index/resource_index/packages/batt_led
+[0.748s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig.cmake
+[0.748s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/cmake/batt_ledConfig-version.cmake
+[0.748s] -- Installing: /home/ros_ws/install/batt_led/share/batt_led/package.xml
+[0.751s] Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros_ws/build/batt_led

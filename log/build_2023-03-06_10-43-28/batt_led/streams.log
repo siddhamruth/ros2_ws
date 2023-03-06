@@ -1,0 +1,12 @@
+[0.041s] Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
+[0.093s] [ 25%] [32mBuilding CXX object CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o[0m
+[0.100s] [ 75%] Built target battery
+[1.175s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:[m[K In member function ‘[01m[Kvoid LedPannelServerNode::publishLedStates()[m[K’:
+[1.175s] [01m[K/home/ros_ws/src/batt_led/src/led_pannel.cpp:38:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_state_array[m[K’ is not a member of ‘[01m[Kbat_led_interfaces::msg[m[K’; did you mean ‘[01m[KLedStateArray[m[K’?
+[1.175s]    38 |         auto msg = bat_led_interfaces::msg::[01;31m[Kled_state_array[m[K();
+[1.175s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.175s]       |                                             [32m[KLedStateArray[m[K
+[1.994s] make[2]: *** [CMakeFiles/led_pannel.dir/build.make:63: CMakeFiles/led_pannel.dir/src/led_pannel.cpp.o] Error 1
+[1.994s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/led_pannel.dir/all] Error 2
+[1.995s] make: *** [Makefile:141: all] Error 2
+[1.997s] Invoked command in '/home/ros_ws/build/batt_led' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/install/bat_led_interfaces:/home/ros_ws/install/batt_led:/home/ros_ws/install/my_robot_interfaces:/home/ros_ws/install/my_cpp_pkg:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
