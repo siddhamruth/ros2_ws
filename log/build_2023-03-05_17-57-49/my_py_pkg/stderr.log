@@ -1,0 +1,5 @@
+  File "/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/hw_status_publisher.py", line 22
+    def main(args = None)
+                        ^
+SyntaxError: invalid syntax
+

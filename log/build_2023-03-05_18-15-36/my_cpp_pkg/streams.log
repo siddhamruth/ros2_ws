@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16
+[0.044s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.207s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.240s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.540s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.641s] -- Found my_robot_interfaces: 0.0.0 (/home/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.652s] CMake Error at CMakeLists.txt:54 (install):
+[0.652s]   install TARGETS given target "ament_target_dependencies" which does not
+[0.652s]   exist.
+[0.652s] 
+[0.652s] 
+[0.733s] -- Configuring incomplete, errors occurred!
+[0.733s] See also "/home/ros_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.733s] See also "/home/ros_ws/build/my_cpp_pkg/CMakeFiles/CMakeError.log".
+[0.740s] make: *** [Makefile:574: cmake_check_build_system] Error 1
+[0.742s] Invoked command in '/home/ros_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/ros_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/ros_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16

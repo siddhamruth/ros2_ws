@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/ros_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/my_robot_interfaces -- -j16 -l16
+[0.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.223s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.431s]   rosidl_generate_interfaces() the passed file
+[0.431s]   'srv/compute_rectangle_Area.srv' doesn't exist relative to the
+[0.431s]   CMAKE_CURRENT_SOURCE_DIR '/home/ros_ws/src/my_robot_interfaces'
+[0.431s] Call Stack (most recent call first):
+[0.431s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.431s] 
+[0.432s] 
+[0.432s] -- Configuring incomplete, errors occurred!
+[0.432s] See also "/home/ros_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.435s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.437s] Invoked command in '/home/ros_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/my_robot_interfaces -- -j16 -l16

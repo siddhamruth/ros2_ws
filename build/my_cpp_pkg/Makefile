@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /home/ros_ws/build/my_cpp_pkg
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -79,28 +67,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target install
 install: preinstall
@@ -114,6 +80,18 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -123,6 +101,17 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -134,6 +123,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,30 +168,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named add_two_ints_server
+# Target rules for targets named number_publisher
 
 # Build rule for target.
-add_two_ints_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_server
-.PHONY : add_two_ints_server
+number_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 number_publisher
+.PHONY : number_publisher
 
 # fast build rule for target.
-add_two_ints_server/fast:
-	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
-.PHONY : add_two_ints_server/fast
+number_publisher/fast:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
+.PHONY : number_publisher/fast
 
 #=============================================================================
-# Target rules for targets named add_two_ints_client
+# Target rules for targets named number_counter
 
 # Build rule for target.
-add_two_ints_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_client
-.PHONY : add_two_ints_client
+number_counter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 number_counter
+.PHONY : number_counter
 
 # fast build rule for target.
-add_two_ints_client/fast:
-	$(MAKE) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/build
-.PHONY : add_two_ints_client/fast
+number_counter/fast:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
+.PHONY : number_counter/fast
+
+#=============================================================================
+# Target rules for targets named my_cpp_pkg_uninstall
+
+# Build rule for target.
+my_cpp_pkg_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_cpp_pkg_uninstall
+.PHONY : my_cpp_pkg_uninstall
+
+# fast build rule for target.
+my_cpp_pkg_uninstall/fast:
+	$(MAKE) -f CMakeFiles/my_cpp_pkg_uninstall.dir/build.make CMakeFiles/my_cpp_pkg_uninstall.dir/build
+.PHONY : my_cpp_pkg_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named add_two_ints_client_no_oop
@@ -207,17 +220,82 @@ add_two_ints_client_no_oop/fast:
 .PHONY : add_two_ints_client_no_oop/fast
 
 #=============================================================================
-# Target rules for targets named my_cpp_pkg_uninstall
+# Target rules for targets named add_two_ints_client
 
 # Build rule for target.
-my_cpp_pkg_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_cpp_pkg_uninstall
-.PHONY : my_cpp_pkg_uninstall
+add_two_ints_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_client
+.PHONY : add_two_ints_client
 
 # fast build rule for target.
-my_cpp_pkg_uninstall/fast:
-	$(MAKE) -f CMakeFiles/my_cpp_pkg_uninstall.dir/build.make CMakeFiles/my_cpp_pkg_uninstall.dir/build
-.PHONY : my_cpp_pkg_uninstall/fast
+add_two_ints_client/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_server
+
+# Build rule for target.
+add_two_ints_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_server
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
+
+#=============================================================================
+# Target rules for targets named smartphone
+
+# Build rule for target.
+smartphone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smartphone
+.PHONY : smartphone
+
+# fast build rule for target.
+smartphone/fast:
+	$(MAKE) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/build
+.PHONY : smartphone/fast
+
+#=============================================================================
+# Target rules for targets named cpp_node
+
+# Build rule for target.
+cpp_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cpp_node
+.PHONY : cpp_node
+
+# fast build rule for target.
+cpp_node/fast:
+	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
+.PHONY : cpp_node/fast
+
+#=============================================================================
+# Target rules for targets named hw_status_publisher
+
+# Build rule for target.
+hw_status_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hw_status_publisher
+.PHONY : hw_status_publisher
+
+# fast build rule for target.
+hw_status_publisher/fast:
+	$(MAKE) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/build
+.PHONY : hw_status_publisher/fast
+
+#=============================================================================
+# Target rules for targets named robot_news_station
+
+# Build rule for target.
+robot_news_station: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_news_station
+.PHONY : robot_news_station
+
+# fast build rule for target.
+robot_news_station/fast:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
+.PHONY : robot_news_station/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -313,24 +391,192 @@ src/add_two_ints_server.cpp.s:
 	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
 
+src/hw_status_publisher.o: src/hw_status_publisher.cpp.o
+
+.PHONY : src/hw_status_publisher.o
+
+# target to build an object file
+src/hw_status_publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o
+.PHONY : src/hw_status_publisher.cpp.o
+
+src/hw_status_publisher.i: src/hw_status_publisher.cpp.i
+
+.PHONY : src/hw_status_publisher.i
+
+# target to preprocess a source file
+src/hw_status_publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.i
+.PHONY : src/hw_status_publisher.cpp.i
+
+src/hw_status_publisher.s: src/hw_status_publisher.cpp.s
+
+.PHONY : src/hw_status_publisher.s
+
+# target to generate assembly for a file
+src/hw_status_publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.s
+.PHONY : src/hw_status_publisher.cpp.s
+
+src/my_first_node.o: src/my_first_node.cpp.o
+
+.PHONY : src/my_first_node.o
+
+# target to build an object file
+src/my_first_node.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o
+.PHONY : src/my_first_node.cpp.o
+
+src/my_first_node.i: src/my_first_node.cpp.i
+
+.PHONY : src/my_first_node.i
+
+# target to preprocess a source file
+src/my_first_node.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.i
+.PHONY : src/my_first_node.cpp.i
+
+src/my_first_node.s: src/my_first_node.cpp.s
+
+.PHONY : src/my_first_node.s
+
+# target to generate assembly for a file
+src/my_first_node.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.s
+.PHONY : src/my_first_node.cpp.s
+
+src/number_counter.o: src/number_counter.cpp.o
+
+.PHONY : src/number_counter.o
+
+# target to build an object file
+src/number_counter.cpp.o:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.o
+.PHONY : src/number_counter.cpp.o
+
+src/number_counter.i: src/number_counter.cpp.i
+
+.PHONY : src/number_counter.i
+
+# target to preprocess a source file
+src/number_counter.cpp.i:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.i
+.PHONY : src/number_counter.cpp.i
+
+src/number_counter.s: src/number_counter.cpp.s
+
+.PHONY : src/number_counter.s
+
+# target to generate assembly for a file
+src/number_counter.cpp.s:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.s
+.PHONY : src/number_counter.cpp.s
+
+src/number_publisher.o: src/number_publisher.cpp.o
+
+.PHONY : src/number_publisher.o
+
+# target to build an object file
+src/number_publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o
+.PHONY : src/number_publisher.cpp.o
+
+src/number_publisher.i: src/number_publisher.cpp.i
+
+.PHONY : src/number_publisher.i
+
+# target to preprocess a source file
+src/number_publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.i
+.PHONY : src/number_publisher.cpp.i
+
+src/number_publisher.s: src/number_publisher.cpp.s
+
+.PHONY : src/number_publisher.s
+
+# target to generate assembly for a file
+src/number_publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.s
+.PHONY : src/number_publisher.cpp.s
+
+src/robot_news_station.o: src/robot_news_station.cpp.o
+
+.PHONY : src/robot_news_station.o
+
+# target to build an object file
+src/robot_news_station.cpp.o:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o
+.PHONY : src/robot_news_station.cpp.o
+
+src/robot_news_station.i: src/robot_news_station.cpp.i
+
+.PHONY : src/robot_news_station.i
+
+# target to preprocess a source file
+src/robot_news_station.cpp.i:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.i
+.PHONY : src/robot_news_station.cpp.i
+
+src/robot_news_station.s: src/robot_news_station.cpp.s
+
+.PHONY : src/robot_news_station.s
+
+# target to generate assembly for a file
+src/robot_news_station.cpp.s:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.s
+.PHONY : src/robot_news_station.cpp.s
+
+src/smartphone.o: src/smartphone.cpp.o
+
+.PHONY : src/smartphone.o
+
+# target to build an object file
+src/smartphone.cpp.o:
+	$(MAKE) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.o
+.PHONY : src/smartphone.cpp.o
+
+src/smartphone.i: src/smartphone.cpp.i
+
+.PHONY : src/smartphone.i
+
+# target to preprocess a source file
+src/smartphone.cpp.i:
+	$(MAKE) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.i
+.PHONY : src/smartphone.cpp.i
+
+src/smartphone.s: src/smartphone.cpp.s
+
+.PHONY : src/smartphone.s
+
+# target to generate assembly for a file
+src/smartphone.cpp.s:
+	$(MAKE) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.s
+.PHONY : src/smartphone.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... install"
+	@echo "... install/strip"
+	@echo "... number_publisher"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... add_two_ints_server"
-	@echo "... add_two_ints_client"
-	@echo "... add_two_ints_client_no_oop"
+	@echo "... number_counter"
 	@echo "... my_cpp_pkg_uninstall"
+	@echo "... add_two_ints_client_no_oop"
+	@echo "... add_two_ints_client"
+	@echo "... add_two_ints_server"
+	@echo "... smartphone"
+	@echo "... cpp_node"
+	@echo "... hw_status_publisher"
+	@echo "... robot_news_station"
 	@echo "... uninstall"
+	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... src/add_two_ints_client.o"
 	@echo "... src/add_two_ints_client.i"
 	@echo "... src/add_two_ints_client.s"
@@ -340,6 +586,24 @@ help:
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/hw_status_publisher.o"
+	@echo "... src/hw_status_publisher.i"
+	@echo "... src/hw_status_publisher.s"
+	@echo "... src/my_first_node.o"
+	@echo "... src/my_first_node.i"
+	@echo "... src/my_first_node.s"
+	@echo "... src/number_counter.o"
+	@echo "... src/number_counter.i"
+	@echo "... src/number_counter.s"
+	@echo "... src/number_publisher.o"
+	@echo "... src/number_publisher.i"
+	@echo "... src/number_publisher.s"
+	@echo "... src/robot_news_station.o"
+	@echo "... src/robot_news_station.i"
+	@echo "... src/robot_news_station.s"
+	@echo "... src/smartphone.o"
+	@echo "... src/smartphone.i"
+	@echo "... src/smartphone.s"
 .PHONY : help
 
 

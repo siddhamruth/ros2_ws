@@ -27,5 +27,7 @@ to include the ros binaries run follfowing:
 building of ros2:
     ros2 pkg create --build-type ament_cmake my_cpp_pkg
     colcon build
+ If the docker needs to display the gui on to the host system use the following command 
+    xhost+
 
 

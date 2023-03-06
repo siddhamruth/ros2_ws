@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16
+[0.058s] [35m[1mScanning dependencies of target number_counter[0m
+[0.075s] [ 12%] Built target add_two_ints_server
+[0.076s] [ 25%] Built target add_two_ints_client
+[0.076s] [ 37%] Built target add_two_ints_client_no_oop
+[0.076s] [ 50%] Built target number_publisher
+[0.083s] [ 75%] Built target robot_news_station
+[0.083s] [ 75%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.084s] [ 81%] Built target smartphone
+[0.084s] [ 93%] Built target cpp_node
+[1.097s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.097s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.097s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.097s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.098s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.098s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.098s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.098s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.098s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.098s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.099s]                  from [01m[K/home/ros_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[1.099s] [01m[K/home/ros_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounter::count_number_publisher(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.099s] [01m[K/home/ros_ws/src/my_cpp_pkg/src/number_counter.cpp:22:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Int64_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.099s]    22 |     RCLCPP_INFO(this->get_logger(), "%d is the data received from number publisher", value.[01;31m[Kdata[m[K);
+[1.099s]       |                                                                                            [01;31m[K^~~~[m[K
+[2.269s] make[2]: *** [CMakeFiles/number_counter.dir/build.make:63: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[2.269s] make[1]: *** [CMakeFiles/Makefile2:119: CMakeFiles/number_counter.dir/all] Error 2
+[2.269s] make: *** [Makefile:141: all] Error 2
+[2.272s] Invoked command in '/home/ros_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/my_cpp_pkg -- -j16 -l16
