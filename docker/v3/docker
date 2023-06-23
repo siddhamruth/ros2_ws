@@ -1,0 +1,37 @@
+FROM osrf/ros:foxy-desktop
+
+# Install VS Code
+RUN apt-get update && apt-get install -y \
+    curl \
+    gpg-agent \
+    software-properties-common && \
+    curl -sSL https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+    echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | tee /etc/apt/sources.list.d/vscode.list && \
+    apt-get update && apt-get install -y \
+    code
+
+# Install Docker and ROS2 dependencies
+RUN apt-get update && apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release && \
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+    echo "deb [arch=arm64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null && \
+    apt-get update && apt-get install -y \
+    docker-ce \
+    docker-ce-cli \
+    containerd.io && \
+    apt-get install -y \
+    ros-foxy-desktop \
+    ros-foxy-rqt* \
+    ros-foxy-gazebo-* \
+    ros-foxy-ros2control ros-foxy-ros2controller ros-foxy-ros2control-controllers && \
+    apt-get install -y \
+    python3-serial \
+    && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set the default command to run when the container starts
+CMD ["bash"]

@@ -1,0 +1,6 @@
+[0.024s] Invoking command in '/home/workspace/ros_ws/build/bat_led_interfaces': /usr/bin/cmake --build /home/workspace/ros_ws/build/bat_led_interfaces -- -j16 -l16
+[0.032s] CMake Error: The current CMakeCache.txt directory /home/workspace/ros_ws/build/bat_led_interfaces/CMakeCache.txt is different than the directory /home/ros_ws/build/bat_led_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.053s] CMake Error: The source directory "/home/ros_ws/src/bat_led_interfaces" does not exist.
+[0.053s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.055s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[0.166s] Invoked command in '/home/workspace/ros_ws/build/bat_led_interfaces' returned '2': /usr/bin/cmake --build /home/workspace/ros_ws/build/bat_led_interfaces -- -j16 -l16

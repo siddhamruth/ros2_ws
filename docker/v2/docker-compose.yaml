@@ -1,0 +1,32 @@
+version: '2'
+services:
+  ros2_jetson:
+    image: osrf/ros:foxy-desktop
+    container_name: ros2_jetson_osrf
+    privileged: true
+    volumes:
+      - /tmp/argus_socket:/tmp/argus_socket
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /home/amruth/Documents/git/ros_ws:/home/workspace/ros_ws
+      - /dev:/dev
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    environment:
+      - DISPLAY=$DISPLAY
+      - QT_X11_NO_MITSHM=1
+          - bash
+    command:
+    - bash
+    tty: true
+    stdin_open: true
+
+# sudo apt-get install vim
+#add these to the ~/.bashrc file  
+# source /opt/ros/foxy/setup.bash
+# source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+# source /home/workspace/ros_ws/install/setup.bash
+# alias sr='source ~/.bashrc'
+
+# install phthon serial
+
+# sudo apt-get install pip
+# pip install pyserial
