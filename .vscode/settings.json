@@ -89,5 +89,6 @@
         "/home/workspace/ros_ws/install/delbot_controller/lib/python3.8/site-packages",
         "/home/workspace/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "ros.distro": "humble"
 }

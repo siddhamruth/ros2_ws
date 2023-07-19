@@ -19,6 +19,8 @@ services:
     tty: true
     stdin_open: true
 
+
+#run these after docker starts
 # sudo apt-get install vim
 #add these to the ~/.bashrc file  
 # source /opt/ros/foxy/setup.bash
