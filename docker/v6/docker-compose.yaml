@@ -1,0 +1,108 @@
+version: '2.2'
+
+services:
+
+    ros2_jetson_2:
+        depends_on:
+        - "husarnet"
+        image: ros2_husarnet_working:latest
+        container_name: ros2_jetson_hl4t_husarnet_2
+        privileged: true
+        volumes:
+        - /tmp/argus_socket:/tmp/argus_socket
+        - /tmp/.X11-unix:/tmp/.X11-unix
+        - /home/nano/Documents/git/:/home/workspace/git/
+        - /dev:/dev
+        # - /dev/ttyUSB0:/dev/ttyUSB0
+        - ./cyclonedds.xml:/cyclonedds.xml
+
+        environment:
+        - DISPLAY=$DISPLAY
+        - QT_X11_NO_MITSHM=1
+        - bash
+        command:
+        - bash
+        # - export CYCLONEDDS_URI=file:///cyclonedds.xml
+        tty: true
+        stdin_open: true
+        network_mode: service:husarnet  # This will put the Husarnet Client in the same network namespace as your app (in this example: turtle_sim)
+
+
+    # turtle_sim_test:
+    #     image: dustynv/ros:foxy-desktop-l4t-r35.3.1
+    #     tty: true
+    #     privileged: true
+    #     environment:
+    #         - DISPLAY=$DISPLAY
+    #         # - QT_X11_NO_MITSHM=1
+    #         - bash
+    #     stdin_open: true
+    #     volumes:
+    #         - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    #         - ./cyclonedds.xml:/cyclonedds.xml
+    #     command:
+    #         - bash
+    #         # - -c
+    #         - export CYCLONEDDS_URI=file:///cyclonedds.xml
+    #         # ros2 run turtlesim turtlesim_node
+    #     network_mode: service:husarnet  # This will put the Husarnet Client in the same network namespace as your app (in this example: turtle_sim)
+
+
+    # ros_humble:
+    #     image: dustynv/ros:humble-desktop-l4t-r32.7.1
+    #     restart: unless-stopped
+
+    #     # port definitions need to be moved to the 'husarnet' service
+    #     network_mode: service:husarnet
+    #     depends_on:
+    #         - "husarnet"
+    #     privileged: true
+    #     volumes:
+    #         # - /tmp/argus_socket:/tmp/argus_socket
+    #         - /tmp/.X11-unix:/tmp/.X11-unix
+    #         - /home/nano/Documents/git/ros_ws:/home/workspace/ros_ws
+    #         - /dev:/dev
+    #         - /dev/ttyUSB0:/dev/ttyUSB0
+    #         # - /var/lib/husarnet  # This will persist your Husarnet Client keys, thus IP of the container will be stable/the same between boots
+    #         - ./cyclonedds.xml:/cyclonedds.xml
+    #     tty: true
+    #     environment:
+    #         - DISPLAY=$DISPLAY
+    #         - QT_X11_NO_MITSHM=1
+    #         - bash
+    #     command:
+    #     - bash
+    #     - -c
+    #     - |
+    #         export CYCLONEDDS_URI=file:///cyclonedds.xml
+    #     # source /opt/ros/humble/setup.bash
+    #     # ros2 run turtlesim turtlesim_node
+
+    #     network_mode: service:husarnet  # This will put the Husarnet Client in the same network namespace as your app (in this example: turtle_sim)
+    #     tty: true
+    #     stdin_open: true
+    #     # env_file:
+    #     #     - ./.env  # create .env file in the same folder as Dockerfile and specify HOSTNAME and JOINCODE there
+    #     # sysctls:
+    #     #     - net.ipv6.conf.all.disable_ipv6=0
+    #     # cap_add:
+    #     #     - NET_ADMIN
+    #     # devices:
+    #     #     - /dev/net/tun
+
+
+    husarnet:
+        image: husarnet/husarnet
+        restart: unless-stopped
+        ports:
+            - "8080:8080" # from my-app
+        volumes:
+            - /var/lib/husarnet  # This will persist your Husarnet Client keys, thus IP of the container will be stable/the same between (re)boots
+        sysctls:
+            - net.ipv6.conf.all.disable_ipv6=0  # Husarnet is using IPv6 for the internal connections
+        cap_add:
+            - NET_ADMIN
+        devices:
+            - /dev/net/tun
+        env_file:
+            - ./.env  # create .env file in the same folder as Dockerfile and specify HOSTNAME and JOINCODE there
