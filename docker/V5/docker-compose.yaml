@@ -5,15 +5,15 @@ services:
     ros2_jetson_2:
         depends_on:
         - "husarnet"
-        image: dustynv/ros:humble-desktop-l4t-r32.7.1
+        image: ros2_jetson_hl4t_husarnet:latest
         container_name: ros2_jetson_hl4t_husarnet
         privileged: true
         volumes:
         - /tmp/argus_socket:/tmp/argus_socket
         - /tmp/.X11-unix:/tmp/.X11-unix
-        - /home/nano/Documents/git/:/home/workspace/git/
+        - /home/nvidia/Documents/git/:/home/workspace/git/
         - /dev:/dev
-        - /dev/ttyUSB0:/dev/ttyUSB0
+        # - /dev/ttyUSB0:/dev/ttyUSB0
         - ./cyclonedds.xml:/cyclonedds.xml
 
         environment:
@@ -26,7 +26,6 @@ services:
         tty: true
         stdin_open: true
         network_mode: service:husarnet  # This will put the Husarnet Client in the same network namespace as your app (in this example: turtle_sim)
-
 
     # turtle_sim_test:
     #     image: dustynv/ros:foxy-desktop-l4t-r35.3.1
