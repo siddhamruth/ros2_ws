@@ -5,13 +5,13 @@ services:
     ros2_jetson_2:
         depends_on:
         - "husarnet"
-        image: ros2_husarnet_working:latest
+        image: dustynv/ros:humble-ros-base-l4t-r32.7.1
         container_name: ros2_jetson_hl4t_husarnet_2
         privileged: true
         volumes:
         - /tmp/argus_socket:/tmp/argus_socket
         - /tmp/.X11-unix:/tmp/.X11-unix
-        - /home/nano/Documents/git/:/home/workspace/git/
+        - /home/nvidia/Documents/git/:/home/workspace/git/
         - /dev:/dev
         # - /dev/ttyUSB0:/dev/ttyUSB0
         - ./cyclonedds.xml:/cyclonedds.xml

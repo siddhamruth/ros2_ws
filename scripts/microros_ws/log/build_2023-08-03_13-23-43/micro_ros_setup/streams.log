@@ -1,0 +1,203 @@
+[0.208s] Invoking command in '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup': /usr/local/bin/cmake /home/workspace/git/ros_ws/scripts/microros_ws/src/micro_ros_setup -DUAGENT_USE_SYSTEM_LOGGER=ON -DCMAKE_INSTALL_PREFIX=/home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup
+[0.476s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[1.783s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[2.514s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.663s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.682s] -- Added test 'lint_cmake' to check CMake code style
+[2.693s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.778s] -- Added test 'xmllint' to check XML markup files
+[2.782s] -- Configuring done (2.3s)
+[2.799s] -- Generating done (0.0s)
+[2.804s] -- Build files have been written to: /home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup
+[2.808s] [33mCMake Warning:
+[2.809s]   Manually-specified variables were not used by the project:
+[2.810s] 
+[2.810s]     UAGENT_USE_SYSTEM_LOGGER
+[2.811s] 
+[2.816s] [0m
+[2.859s] Invoked command in '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup' returned '0': /usr/local/bin/cmake /home/workspace/git/ros_ws/scripts/microros_ws/src/micro_ros_setup -DUAGENT_USE_SYSTEM_LOGGER=ON -DCMAKE_INSTALL_PREFIX=/home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup
+[2.867s] Invoking command in '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup': /usr/local/bin/cmake --build /home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup -- -j4 -l4
+[3.130s] Invoked command in '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup' returned '0': /usr/local/bin/cmake --build /home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup -- -j4 -l4
+[3.586s] Invoking command in '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup': /usr/local/bin/cmake --install /home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup
+[3.769s] -- Install configuration: ""
+[3.770s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[3.771s] -- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[3.772s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[3.772s] -- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[3.773s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[3.774s] -- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[3.777s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[3.779s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[3.780s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[3.782s] -- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[3.784s] -- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[3.794s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[3.796s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[3.797s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[3.798s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[3.800s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config
+[3.801s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/utils.sh
+[3.802s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib
+[3.804s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[3.806s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[3.807s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[3.808s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[3.809s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[3.810s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[3.810s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[3.811s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[3.811s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[3.812s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[3.813s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android
+[3.813s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic
+[3.814s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[3.815s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[3.815s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[3.816s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[3.817s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[3.817s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[3.818s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[3.819s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[3.819s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[3.820s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[3.821s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed
+[3.822s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic
+[3.822s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[3.823s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[3.827s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[3.828s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[3.829s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[3.829s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[3.830s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[3.831s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[3.831s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[3.834s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[3.835s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[3.835s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host
+[3.837s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic
+[3.838s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[3.839s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[3.839s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[3.840s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[3.841s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[3.842s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[3.843s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[3.844s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[3.844s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[3.845s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr
+[3.846s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic
+[3.846s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[3.847s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[3.865s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[3.866s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[3.866s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[3.867s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[3.868s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[3.868s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[3.869s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[3.870s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[3.870s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[3.871s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[3.871s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[3.888s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos
+[3.889s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[3.890s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32
+[3.890s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[3.891s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[3.891s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[3.893s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[3.894s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[3.894s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[3.895s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[3.895s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[3.900s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[3.901s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[3.902s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[3.902s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[3.903s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[3.903s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[3.903s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[3.915s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[3.916s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[3.917s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[3.918s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[3.924s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[3.926s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[3.927s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[3.929s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[3.943s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[3.944s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[3.945s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[3.946s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[3.947s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[3.948s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[3.949s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[3.951s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[3.953s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[3.954s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[3.955s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[3.957s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[3.957s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[3.958s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[3.959s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[3.959s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[3.960s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[3.961s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[3.962s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[3.963s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[3.964s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[3.964s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[3.965s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[3.965s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[3.966s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[3.966s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[3.967s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[3.967s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[3.969s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[3.969s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[3.971s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[3.971s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[3.975s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[3.976s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[3.977s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[3.978s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[3.979s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[3.979s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[3.980s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[3.981s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[3.981s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[3.982s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[3.982s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra
+[3.983s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[3.983s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[3.984s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[3.984s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[3.985s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[3.985s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[3.986s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[3.986s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[3.987s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[4.000s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[4.001s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[4.001s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian
+[4.002s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic
+[4.002s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[4.003s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[4.003s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[4.019s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[4.020s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[4.022s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[4.023s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[4.023s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[4.024s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[4.025s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[4.026s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[4.027s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[4.028s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[4.029s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[4.030s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[4.030s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[4.032s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[4.033s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[4.033s] -- Up-to-date: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[4.035s] Invoked command in '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup' returned '0': /usr/local/bin/cmake --install /home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup

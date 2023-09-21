@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.004377] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.013322] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.099749] (-) TimerEvent: {}
+[0.203363] (-) TimerEvent: {}
+[0.224828] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.226555] (micro_ros_setup) Command: {'cmd': ['/usr/local/bin/cmake', '/home/workspace/git/ros_ws/scripts/microros_ws/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup'], 'cwd': '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '306486285c79'), ('GIT_ASKPASS', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/helpers/browser.sh'), ('SHLVL', '3'), ('OLDPWD', '/home/workspace/git/ros_ws/scripts'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7b45dcb7-7a1e-4266-8611-cef8dd0c710a.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-46d13384-2cd5-4de9-b584-e84e20180f13.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-46d13384-2cd5-4de9-b584-e84e20180f13.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/humble'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a647aa9d04.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-46d13384-2cd5-4de9-b584-e84e20180f13.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.306464] (-) TimerEvent: {}
+[0.407715] (-) TimerEvent: {}
+[0.508549] (-) TimerEvent: {}
+[0.609371] (-) TimerEvent: {}
+[0.710274] (-) TimerEvent: {}
+[0.811913] (-) TimerEvent: {}
+[0.912743] (-) TimerEvent: {}
+[1.031989] (-) TimerEvent: {}
+[1.132914] (-) TimerEvent: {}
+[1.198302] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.233215] (-) TimerEvent: {}
+[1.334188] (-) TimerEvent: {}
+[1.434992] (-) TimerEvent: {}
+[1.535786] (-) TimerEvent: {}
+[1.638248] (-) TimerEvent: {}
+[1.708199] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.738444] (-) TimerEvent: {}
+[1.832433] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.838638] (-) TimerEvent: {}
+[1.939481] (-) TimerEvent: {}
+[2.040459] (-) TimerEvent: {}
+[2.122100] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.140698] (-) TimerEvent: {}
+[2.189358] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.193493] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.197078] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.240952] (-) TimerEvent: {}
+[2.249072] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.342245] (-) TimerEvent: {}
+[2.443046] (-) TimerEvent: {}
+[2.544046] (-) TimerEvent: {}
+[2.588359] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.644242] (-) TimerEvent: {}
+[2.647731] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.649216] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.655149] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.688532] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[2.744509] (-) TimerEvent: {}
+[2.845327] (-) TimerEvent: {}
+[2.946524] (-) TimerEvent: {}
+[3.047388] (-) TimerEvent: {}
+[3.148207] (-) TimerEvent: {}
+[3.248954] (-) TimerEvent: {}
+[3.349662] (-) TimerEvent: {}
+[3.450468] (-) TimerEvent: {}
+[3.554215] (-) TimerEvent: {}
+[3.654973] (-) TimerEvent: {}
+[3.755739] (-) TimerEvent: {}
+[3.856841] (-) TimerEvent: {}
+[3.957627] (-) TimerEvent: {}
+[4.058403] (-) TimerEvent: {}
+[4.159129] (-) TimerEvent: {}
+[4.260026] (-) TimerEvent: {}
+[4.361443] (-) TimerEvent: {}
+[4.464330] (-) TimerEvent: {}
+[4.565081] (-) TimerEvent: {}
+[4.665979] (-) TimerEvent: {}
+[4.766832] (-) TimerEvent: {}
+[4.867699] (-) TimerEvent: {}
+[4.970254] (-) TimerEvent: {}
+[5.070954] (-) TimerEvent: {}
+[5.171769] (-) TimerEvent: {}
+[5.272553] (-) TimerEvent: {}
+[5.373298] (-) TimerEvent: {}
+[5.474015] (-) TimerEvent: {}
+[5.574860] (-) TimerEvent: {}
+[5.675635] (-) TimerEvent: {}
+[5.776748] (-) TimerEvent: {}
+[5.879825] (-) TimerEvent: {}
+[5.980570] (-) TimerEvent: {}
+[6.081311] (-) TimerEvent: {}
+[6.182152] (-) TimerEvent: {}
+[6.283061] (-) TimerEvent: {}
+[6.383818] (-) TimerEvent: {}
+[6.466367] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter \n'}
+[6.484010] (-) TimerEvent: {}
+[6.584760] (-) TimerEvent: {}
+[6.685562] (-) TimerEvent: {}
+[6.786484] (-) TimerEvent: {}
+[6.887871] (-) TimerEvent: {}
+[6.989843] (-) TimerEvent: {}
+[7.095205] (-) TimerEvent: {}
+[7.195984] (-) TimerEvent: {}
+[7.270793] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[7.296291] (-) TimerEvent: {}
+[7.397216] (-) TimerEvent: {}
+[7.498014] (-) TimerEvent: {}
+[7.598915] (-) TimerEvent: {}
+[7.699829] (-) TimerEvent: {}
+[7.802948] (-) TimerEvent: {}
+[7.903896] (-) TimerEvent: {}
+[8.004942] (-) TimerEvent: {}
+[8.054752] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.105195] (-) TimerEvent: {}
+[8.206264] (-) TimerEvent: {}
+[8.228320] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.247677] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.259606] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.306465] (-) TimerEvent: {}
+[8.342884] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.356194] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done (7.7s)\n'}
+[8.380332] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.388300] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup\n'}
+[8.406957] (-) TimerEvent: {}
+[8.438355] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[8.441793] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[8.452091] (micro_ros_setup) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '306486285c79'), ('GIT_ASKPASS', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/helpers/browser.sh'), ('SHLVL', '3'), ('OLDPWD', '/home/workspace/git/ros_ws/scripts'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7b45dcb7-7a1e-4266-8611-cef8dd0c710a.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-46d13384-2cd5-4de9-b584-e84e20180f13.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-46d13384-2cd5-4de9-b584-e84e20180f13.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/humble'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a647aa9d04.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-46d13384-2cd5-4de9-b584-e84e20180f13.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[8.508939] (-) TimerEvent: {}
+[8.609972] (-) TimerEvent: {}
+[8.711223] (-) TimerEvent: {}
+[8.744679] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[8.811416] (-) TimerEvent: {}
+[8.912509] (-) TimerEvent: {}
+[8.971121] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[9.012799] (-) TimerEvent: {}
+[9.114187] (-) TimerEvent: {}
+[9.166476] (micro_ros_setup) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup'], 'cwd': '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '306486285c79'), ('GIT_ASKPASS', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/helpers/browser.sh'), ('SHLVL', '3'), ('OLDPWD', '/home/workspace/git/ros_ws/scripts'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7b45dcb7-7a1e-4266-8611-cef8dd0c710a.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-46d13384-2cd5-4de9-b584-e84e20180f13.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-46d13384-2cd5-4de9-b584-e84e20180f13.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/humble'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a647aa9d04.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-46d13384-2cd5-4de9-b584-e84e20180f13.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/workspace/git/ros_ws/scripts/microros_ws/build/micro_ros_setup'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[9.214425] (-) TimerEvent: {}
+[9.315391] (-) TimerEvent: {}
+[9.362671] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.363501] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[9.364133] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[9.364728] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[9.365279] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[9.365796] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[9.366409] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[9.366967] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[9.367504] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[9.369406] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[9.374258] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[9.375118] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[9.375751] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[9.376309] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[9.376876] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[9.377422] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[9.377959] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config\n'}
+[9.378834] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[9.379805] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[9.380472] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[9.381026] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[9.381563] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[9.386588] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[9.387605] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[9.391770] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[9.392629] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[9.393279] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[9.393872] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[9.398917] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[9.400219] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android\n'}
+[9.400934] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic\n'}
+[9.402947] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[9.403768] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[9.410314] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[9.417581] (-) TimerEvent: {}
+[9.418296] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[9.419190] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[9.419963] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[9.424554] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[9.425189] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[9.431553] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[9.432531] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[9.439224] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed\n'}
+[9.440084] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[9.440986] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[9.441686] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[9.446117] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[9.446910] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[9.447538] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[9.448247] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[9.449032] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[9.449768] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[9.450727] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[9.451446] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[9.452136] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[9.452873] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host\n'}
+[9.453567] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[9.458456] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[9.459283] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[9.460393] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[9.461143] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[9.466672] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[9.472180] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[9.472824] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[9.473373] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[9.473909] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[9.474623] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[9.475927] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[9.476871] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[9.477562] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[9.478389] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[9.479163] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[9.479864] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[9.480481] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[9.481100] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[9.481636] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[9.493427] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[9.496344] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[9.497116] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[9.497810] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[9.498637] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[9.499436] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos\n'}
+[9.500211] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[9.501000] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[9.501793] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[9.519769] (-) TimerEvent: {}
+[9.527839] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[9.531427] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[9.532284] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[9.532852] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[9.533338] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[9.533805] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[9.534554] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[9.535488] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[9.536410] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[9.543986] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[9.550070] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[9.551498] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[9.554167] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[9.554954] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[9.558817] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[9.559604] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[9.560267] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[9.560799] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[9.561298] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[9.561815] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[9.567393] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[9.568058] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[9.568688] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[9.569259] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[9.569744] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[9.570335] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[9.571030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[9.571740] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[9.572486] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[9.595103] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[9.596098] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[9.596780] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[9.597420] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[9.598088] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[9.598780] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[9.603360] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[9.609285] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[9.609992] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[9.611065] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[9.612013] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[9.612975] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[9.619093] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[9.620255] (-) TimerEvent: {}
+[9.621583] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[9.622661] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[9.623575] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[9.627103] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[9.629959] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[9.630781] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[9.631496] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[9.632167] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[9.632784] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[9.633316] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[9.633873] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[9.639197] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[9.640411] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[9.642266] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[9.643328] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[9.644325] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[9.645529] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[9.647250] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[9.647881] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[9.648479] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[9.649062] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[9.650285] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[9.650956] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[9.651519] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[9.656411] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[9.657403] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[9.659758] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[9.660556] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[9.661335] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[9.662965] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[9.663938] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[9.664672] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[9.665373] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[9.669456] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[9.670583] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[9.671417] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[9.672192] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[9.672917] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[9.673550] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[9.674497] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[9.675409] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[9.679223] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[9.680663] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[9.681772] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[9.682609] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[9.683665] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[9.684707] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[9.686308] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[9.692254] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[9.693331] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[9.694353] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[9.697219] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[9.698018] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[9.701481] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[9.703135] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/workspace/git/ros_ws/scripts/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[9.720508] (-) TimerEvent: {}
+[9.751784] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[9.822256] (-) TimerEvent: {}
+[9.932153] (-) TimerEvent: {}
+[10.050180] (-) TimerEvent: {}
+[10.152414] (-) TimerEvent: {}
+[10.253420] (-) TimerEvent: {}
+[10.354272] (-) TimerEvent: {}
+[10.468146] (-) TimerEvent: {}
+[10.579346] (-) TimerEvent: {}
+[10.692898] (-) TimerEvent: {}
+[10.728564] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[10.737234] (-) EventReactorShutdown: {}
