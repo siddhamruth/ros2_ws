@@ -90,5 +90,6 @@
         "/home/workspace/ros_ws/install/bat_led_interfaces/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
     ],
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "cmake.sourceDirectory": "/home/nvidia/Documents/git/ros_ws/src/batt_led"
 }
