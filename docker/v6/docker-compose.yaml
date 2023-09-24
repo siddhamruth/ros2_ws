@@ -5,8 +5,8 @@ services:
     ros2_jetson_2:
         depends_on:
         - "husarnet"
-        image: dustynv/ros:humble-ros-base-l4t-r32.7.1
-        container_name: ros2_jetson_hl4t_husarnet_2
+        image: docker pull dustynv/ros:foxy-desktop-l4t-r35.2.1
+        container_name: rso2_foxy_v1
         privileged: true
         volumes:
         - /tmp/argus_socket:/tmp/argus_socket
@@ -17,7 +17,7 @@ services:
         - ./cyclonedds.xml:/cyclonedds.xml
 
         environment:
-        - DISPLAY=$DISPLAY
+        - DISPLAY=:0 #$DISPLAY
         - QT_X11_NO_MITSHM=1
         - bash
         command:
