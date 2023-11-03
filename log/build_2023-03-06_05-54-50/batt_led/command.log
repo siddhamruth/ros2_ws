@@ -1,6 +1,0 @@
-Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros_ws/src/batt_led -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/batt_led
-Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros_ws/src/batt_led -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/batt_led
-Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
-Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros_ws/build/batt_led -- -j16 -l16
-Invoking command in '/home/ros_ws/build/batt_led': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros_ws/build/batt_led
-Invoked command in '/home/ros_ws/build/batt_led' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros_ws/build/batt_led

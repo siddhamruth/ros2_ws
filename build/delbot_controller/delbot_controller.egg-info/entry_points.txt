@@ -1,8 +1,0 @@
-[console_scripts]
-draw_circle = delbot_controller.draw_circle:main
-joy_controller = delbot_controller.joy_control:main
-joy_simulator = delbot_controller.joy_simulator:main
-pose_subscriber = delbot_controller.pose_subscriber:main
-test_node = delbot_controller.first_node:main
-turtle_controller = delbot_controller.turtle_controller:main
-

@@ -1,0 +1,62 @@
+[0.142s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_3[0m
+[0.202s] [ 33%] Built target cpp_node_1
+[0.206s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_3.dir/src/third_node.cpp.o[0m
+[0.208s] [ 83%] Built target cpp_node_2
+[2.122s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:21:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.123s]    21 |     rclcpp::TimerBase::SharedPtr [01;31m[Ktimer_[m[K
+[2.123s]       |                                  [01;31m[K^~~~~~[m[K
+[2.123s]       |                                        [32m[K;[m[K
+[2.133s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.134s]                  from [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:2[m[K:
+[2.134s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timer_callback()[m[K’:
+[2.134s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyNode[m[K’ has no member named ‘[01m[Kget_lpgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.134s]    19 |         RCLCPP_INFO(this->[01;31m[Kget_lpgger[m[K(), "this si from timer");
+[2.134s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.134s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyNode[m[K’ has no member named ‘[01m[Kget_lpgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.134s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.135s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_lpgger(), "this si from timer");
+[2.135s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.135s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.135s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_lpgger(), "this si from timer");
+[2.135s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.135s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.135s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_lpgger(), "this si from timer");
+[2.135s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.135s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.135s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_lpgger(), "this si from timer");
+[2.135s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.135s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.136s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_lpgger(), "this si from timer");
+[2.136s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.136s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.136s]                  from [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:2[m[K:
+[2.137s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyNode[m[K’ has no member named ‘[01m[Kget_lpgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.137s]    19 |         RCLCPP_INFO(this->[01;31m[Kget_lpgger[m[K(), "this si from timer");
+[2.137s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.137s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:19:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyNode[m[K’ has no member named ‘[01m[Kget_lpgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.137s]    19 |         RCLCPP_INFO(this->[01;31m[Kget_lpgger[m[K(), "this si from timer");
+[2.137s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.523s] gmake[2]: *** [CMakeFiles/cpp_node_3.dir/build.make:76: CMakeFiles/cpp_node_3.dir/src/third_node.cpp.o] Error 1
+[2.524s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cpp_node_3.dir/all] Error 2
+[2.524s] gmake: *** [Makefile:146: all] Error 2
+[2.525s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16

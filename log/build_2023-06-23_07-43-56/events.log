@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000419] (-) JobUnselected: {'identifier': 'bat_led_interfaces'}
-[0.000565] (-) JobUnselected: {'identifier': 'batt_led'}
-[0.000599] (-) JobUnselected: {'identifier': 'delbot_controller'}
-[0.000628] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
-[0.000657] (-) JobUnselected: {'identifier': 'my_py_pkg'}
-[0.000684] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
-[0.000712] (-) EventReactorShutdown: {}

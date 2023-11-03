@@ -1,0 +1,46 @@
+[0.126s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_1[0m
+[0.201s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_1.dir/src/my_first_node.cpp.o[0m
+[1.995s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.995s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:8:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[1.995s]     8 |     rclcpp::init(argc, argv)
+[1.995s]       |                             [01;31m[K^[m[K
+[1.995s]       |                             [32m[K;[m[K
+[1.995s]     9 |     [32m[Kauto[m[K node = make_shared<rclcpp::Node>("cpp_test");
+[1.995s]       |     [32m[K~~~~[m[K                     
+[1.997s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.998s]                  from [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:2[m[K:
+[1.998s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:10:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[1.998s]    10 |     RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "hii from cpp node");
+[1.998s]       |                 [01;31m[K^~~~[m[K
+[1.998s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:10:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.998s]    10 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hii from cpp node");
+[1.998s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.999s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.999s]    10 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hii from cpp node");
+[1.999s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.999s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:10:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.999s]    10 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hii from cpp node");
+[1.999s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.999s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.999s]    10 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hii from cpp node");
+[1.999s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.999s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:10:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.999s]    10 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hii from cpp node");
+[1.999s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.000s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:11:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.000s]    11 |     rclcpp::spin([01;31m[Knode[m[K);
+[2.000s]       |                  [01;31m[K^~~~[m[K
+[2.336s] gmake[2]: *** [CMakeFiles/cpp_node_1.dir/build.make:76: CMakeFiles/cpp_node_1.dir/src/my_first_node.cpp.o] Error 1
+[2.336s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_1.dir/all] Error 2
+[2.337s] gmake: *** [Makefile:146: all] Error 2
+[2.339s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16

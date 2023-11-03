@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_2[0m
+[ 50%] Built target cpp_node_1
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_node_2.dir/src/second_node.cpp.o[0m
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/second_node.cpp:14:9:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   14 |         [01;31m[Kauto[m[K timer_call = this->create_wall_timer(100, this->publish_data());
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/second_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::publish_data()[m[K’:
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/second_node.cpp:15:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   15 |         void publish_data(){std::cout <<"timer is called"<<endl[01;31m[K}[m[K;
+      |                                                                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/cpp_node_2.dir/build.make:76: CMakeFiles/cpp_node_2.dir/src/second_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_node_2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

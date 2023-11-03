@@ -1,3 +1,0 @@
-[console_scripts]
-hw_status_publisher = my_py_pkg.hw_status_publisher:main
-

@@ -1,0 +1,19 @@
+[0.134s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_2[0m
+[0.186s] [ 16%] [32mBuilding CXX object CMakeFiles/cpp_node_3.dir/src/third_node.cpp.o[0m
+[0.193s] [ 50%] Built target cpp_node_1
+[0.202s] [ 66%] [32mBuilding CXX object CMakeFiles/cpp_node_2.dir/src/second_node.cpp.o[0m
+[0.216s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/third_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.216s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.216s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.217s] compilation terminated.
+[0.217s] gmake[2]: *** [CMakeFiles/cpp_node_3.dir/build.make:76: CMakeFiles/cpp_node_3.dir/src/third_node.cpp.o] Error 1
+[0.217s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cpp_node_3.dir/all] Error 2
+[0.217s] gmake[1]: *** Waiting for unfinished jobs....
+[2.044s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/second_node.cpp:14:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[2.044s]    14 |     [01;31m[Kauto[m[K timer_call = this->create_wall_timer(std::chrono::milliseconds(1000), this->publish_data())
+[2.044s]       |     [01;31m[K^~~~[m[K
+[2.388s] gmake[2]: *** [CMakeFiles/cpp_node_2.dir/build.make:76: CMakeFiles/cpp_node_2.dir/src/second_node.cpp.o] Error 1
+[2.388s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_node_2.dir/all] Error 2
+[2.388s] gmake: *** [Makefile:146: all] Error 2
+[2.390s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16

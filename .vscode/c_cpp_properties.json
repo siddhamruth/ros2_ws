@@ -9,6 +9,7 @@
         "/home/workspace/ros_ws/install/my_robot_interfaces/include/**",
         "/home/workspace/ros_ws/install/bat_led_interfaces/include/**",
         "/opt/ros/foxy/include/**",
+        "/opt/ros/humble/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

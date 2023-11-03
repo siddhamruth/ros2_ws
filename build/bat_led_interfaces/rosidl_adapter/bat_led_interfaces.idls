@@ -1,3 +1,0 @@
-/home/ros_ws/build/bat_led_interfaces/rosidl_adapter/bat_led_interfaces:msg/LedPannelState.idl
-/home/ros_ws/build/bat_led_interfaces/rosidl_adapter/bat_led_interfaces:srv/SetLed.idl
-/home/ros_ws/build/bat_led_interfaces/rosidl_adapter/bat_led_interfaces:msg/LedStateArray.idl

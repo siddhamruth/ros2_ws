@@ -1,0 +1,4 @@
+[console_scripts]
+py_node = my_py_pkg.first_node:main
+py_node_2 = my_py_pkg.second_node:main
+

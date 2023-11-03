@@ -1,6 +1,0 @@
-[0.052s] Invoking command in '/home/workspace/ros_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/ros_ws/install/my_py_pkg:/home/workspace/ros_ws/install/delbot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/workspace/ros_ws/build/my_robot_interfaces -- -j16 -l16
-[0.061s] CMake Error: The current CMakeCache.txt directory /home/workspace/ros_ws/build/my_robot_interfaces/CMakeCache.txt is different than the directory /home/ros_ws/build/my_robot_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
-[0.072s] CMake Error: The source directory "/home/ros_ws/src/my_robot_interfaces" does not exist.
-[0.072s] Specify --help for usage, or press the help button on the CMake GUI.
-[0.073s] make: *** [Makefile:988: cmake_check_build_system] Error 1
-[0.225s] Invoked command in '/home/workspace/ros_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/ros_ws/install/my_py_pkg:/home/workspace/ros_ws/install/delbot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/workspace/ros_ws/build/my_robot_interfaces -- -j16 -l16

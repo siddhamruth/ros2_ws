@@ -1,2 +1,0 @@
-Invoking command in '/home/workspace/ros_ws/build/my_robot_interfaces': /usr/bin/cmake --build /home/workspace/ros_ws/build/my_robot_interfaces -- -j16 -l16
-Invoked command in '/home/workspace/ros_ws/build/my_robot_interfaces' returned '2': /usr/bin/cmake --build /home/workspace/ros_ws/build/my_robot_interfaces -- -j16 -l16

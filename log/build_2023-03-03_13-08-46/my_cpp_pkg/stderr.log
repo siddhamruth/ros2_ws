@@ -1,4 +1,0 @@
-[01m[K/home/ros_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounter::count_number_publisher(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/ros_ws/src/my_cpp_pkg/src/number_counter.cpp:20:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   20 | void count_number_publisher([01;35m[Kconst std_msgs::msg::Int64::SharedPtr value[m[K)
-      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
