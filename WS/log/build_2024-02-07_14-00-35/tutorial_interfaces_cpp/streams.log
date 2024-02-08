@@ -1,0 +1,21 @@
+[0.065s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/amruth/Documents/git/ros_ws/WS/src/tutorial_interfaces_cpp -DCMAKE_INSTALL_PREFIX=/home/amruth/Documents/git/ros_ws/WS/install/tutorial_interfaces_cpp
+[0.078s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found geometry_msgs: 4.2.3 (/home/amruth/Documents/git/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.303s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.305s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.310s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.442s]   find_package called with invalid argument "rosidl_default_generators"
+[0.442s] 
+[0.442s] [0m
+[0.846s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.822s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.864s] -- Added test 'lint_cmake' to check CMake code style
+[1.865s] -- Added test 'xmllint' to check XML markup files
+[1.869s] -- Configuring incomplete, errors occurred!
+[1.869s] See also "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/CMakeFiles/CMakeOutput.log".
+[1.874s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/amruth/Documents/git/ros_ws/WS/src/tutorial_interfaces_cpp -DCMAKE_INSTALL_PREFIX=/home/amruth/Documents/git/ros_ws/WS/install/tutorial_interfaces_cpp

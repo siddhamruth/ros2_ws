@@ -1,0 +1,39 @@
+[1.209s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/amruth/Documents/git/ros_ws/WS/src/tutorial_interfaces_cpp -DCMAKE_INSTALL_PREFIX=/home/amruth/Documents/git/ros_ws/WS/install/tutorial_interfaces_cpp
+[1.271s] -- The C compiler identification is GNU 11.3.0
+[1.321s] -- The CXX compiler identification is GNU 11.3.0
+[1.330s] -- Detecting C compiler ABI info
+[1.396s] -- Detecting C compiler ABI info - done
+[1.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.403s] -- Detecting C compile features
+[1.403s] -- Detecting C compile features - done
+[1.405s] -- Detecting CXX compiler ABI info
+[1.480s] -- Detecting CXX compiler ABI info - done
+[1.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.486s] -- Detecting CXX compile features
+[1.486s] -- Detecting CXX compile features - done
+[1.492s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.715s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.851s] -- Found geometry_msgs: 4.2.3 (/home/amruth/Documents/git/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.912s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.923s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.936s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.113s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.445s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.959s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.245s] -- Found PythonInterp: /home/amruth/miniconda3/bin/python3 (found suitable version "3.11.5", minimum required is "3.6") 
+[3.249s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.293s] -- Found PythonLibs: /home/amruth/miniconda3/lib/libpython3.11.so (found suitable version "3.11.5", minimum required is "3.5") 
+[3.294s] -- Using PYTHON_EXECUTABLE: /home/amruth/miniconda3/bin/python3
+[3.294s] -- Using PYTHON_INCLUDE_DIRS: /home/amruth/miniconda3/include/python3.11
+[3.294s] -- Using PYTHON_LIBRARIES: /home/amruth/miniconda3/lib/libpython3.11.so
+[3.314s] -- Found PythonExtra: .so  
+[3.535s] -- Using numpy include directory: /home/amruth/miniconda3/lib/python3.11/site-packages/numpy/core/include
+[3.574s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.613s] -- Added test 'lint_cmake' to check CMake code style
+[3.614s] -- Added test 'xmllint' to check XML markup files
+[3.617s] -- Configuring done
+[3.661s] -- Generating done
+[3.664s] -- Build files have been written to: /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp

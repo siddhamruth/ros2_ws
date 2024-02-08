@@ -1,0 +1,26 @@
+[1.231s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp -- -j16 -l16
+[1.303s] [  6%] Built target tutorial_interfaces_cpp__cpp
+[1.303s] [ 10%] Built target tutorial_interfaces_cpp__rosidl_generator_c
+[1.321s] [ 10%] Built target ament_cmake_python_copy_tutorial_interfaces_cpp
+[1.341s] [ 45%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp
+[1.341s] [ 47%] Built target tutorial_interfaces_cpp__rosidl_typesupport_c
+[1.341s] [ 49%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c
+[1.341s] [ 49%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_c
+[1.342s] [ 52%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c
+[1.344s] [ 61%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp
+[1.346s] [ 69%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp
+[1.358s] [ 77%] Built target tutorial_interfaces_cpp__rosidl_typesupport_cpp
+[1.385s] [ 77%] Built target tutorial_interfaces_cpp
+[1.411s] [ 79%] Built target tutorial_interfaces_cpp__py
+[1.437s] [ 86%] Built target tutorial_interfaces_cpp__rosidl_generator_py
+[1.465s] [ 96%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_c__pyext
+[1.465s] [ 96%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c__pyext
+[1.465s] [ 96%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c__pyext
+[1.465s] [100%] Built target tutorial_interfaces_cpp__rosidl_typesupport_c__pyext
+[1.588s] running egg_info
+[1.588s] writing tutorial_interfaces_cpp.egg-info/PKG-INFO
+[1.588s] writing dependency_links to tutorial_interfaces_cpp.egg-info/dependency_links.txt
+[1.589s] writing top-level names to tutorial_interfaces_cpp.egg-info/top_level.txt
+[1.591s] reading manifest file 'tutorial_interfaces_cpp.egg-info/SOURCES.txt'
+[1.591s] writing manifest file 'tutorial_interfaces_cpp.egg-info/SOURCES.txt'
+[1.622s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_cpp_egg

@@ -1,0 +1,16 @@
+[0.958s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/turtlesim -- -j16 -l16
+[1.033s] [ 10%] Built target turtlesim__rosidl_generator_c
+[1.036s] [ 11%] Built target turtlesim__cpp
+[1.063s] [ 31%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[1.063s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_c
+[1.065s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[1.067s] [ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[1.068s] [ 60%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[1.069s] [ 69%] Built target turtlesim__rosidl_typesupport_cpp
+[1.071s] [ 79%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[1.073s] [ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[1.099s] [ 91%] Built target turtlesim
+[1.099s] [ 93%] Built target mimic
+[1.099s] [ 94%] Built target turtle_teleop_key
+[1.099s] [ 94%] Built target draw_square
+[1.104s] [100%] Built target turtlesim_node

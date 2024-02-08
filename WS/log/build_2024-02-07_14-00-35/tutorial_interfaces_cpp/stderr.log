@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  find_package called with invalid argument "rosidl_default_generators"
+
+[0m

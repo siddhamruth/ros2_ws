@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces_cpp",
+  "non_idl_tuples": [
+    "/home/amruth/Documents/git/ros_ws/WS/src/tutorial_interfaces_cpp:msg/Num.msg",
+    "/home/amruth/Documents/git/ros_ws/WS/src/tutorial_interfaces_cpp:msg/Sphere.msg",
+    "/home/amruth/Documents/git/ros_ws/WS/src/tutorial_interfaces_cpp:srv/AddThreeInts.srv"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/amruth/Documents/git/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/Kill.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/SetPen.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl",
+    "/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "/home/amruth/Documents/git/microros_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "/home/amruth/Documents/git/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

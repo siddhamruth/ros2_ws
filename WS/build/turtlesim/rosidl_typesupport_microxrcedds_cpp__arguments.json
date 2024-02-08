@@ -1,0 +1,33 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_typesupport_microxrcedds_cpp/turtlesim",
+  "template_dir": "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource",
+  "idl_tuples": [
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "target_dependencies": [
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/rosidl_typesupport_microxrcedds_cpp/rosidl_typesupport_microxrcedds_cpp",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__type_support_cpp.cpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__type_support_cpp.cpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__type_support_cpp.cpp.em",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/Kill.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/SetPen.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportAbsolute.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl"
+  ]
+}

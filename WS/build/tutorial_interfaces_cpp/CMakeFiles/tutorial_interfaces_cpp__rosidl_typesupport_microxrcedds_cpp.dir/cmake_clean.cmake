@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/num__type_support_cpp.cpp.o"
+  "CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/num__type_support_cpp.cpp.o.d"
+  "CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/sphere__type_support_cpp.cpp.o"
+  "CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/sphere__type_support_cpp.cpp.o.d"
+  "CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/srv/detail/microxrcedds/add_three_ints__type_support_cpp.cpp.o"
+  "CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/srv/detail/microxrcedds/add_three_ints__type_support_cpp.cpp.o.d"
+  "libtutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.pdb"
+  "libtutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.so"
+  "rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/num__type_support_cpp.cpp"
+  "rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/sphere__type_support_cpp.cpp"
+  "rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/num__rosidl_typesupport_microxrcedds_cpp.hpp"
+  "rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/sphere__rosidl_typesupport_microxrcedds_cpp.hpp"
+  "rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/srv/detail/add_three_ints__rosidl_typesupport_microxrcedds_cpp.hpp"
+  "rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/srv/detail/microxrcedds/add_three_ints__type_support_cpp.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

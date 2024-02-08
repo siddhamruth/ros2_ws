@@ -1,0 +1,23 @@
+{
+  "package_name": "tutorial_interfaces_cpp",
+  "output_dir": "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp",
+  "template_dir": "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource",
+  "idl_tuples": [
+    "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp:msg/Num.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp:msg/Sphere.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/rosidl_typesupport_microxrcedds_cpp/rosidl_typesupport_microxrcedds_cpp",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__type_support_cpp.cpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__type_support_cpp.cpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__type_support_cpp.cpp.em",
+    "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp/msg/Num.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp/msg/Sphere.idl",
+    "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp/srv/AddThreeInts.idl"
+  ]
+}

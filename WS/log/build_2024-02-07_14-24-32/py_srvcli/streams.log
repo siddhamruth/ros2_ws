@@ -1,0 +1,25 @@
+[2.501s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/src/py_srvcli': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/build install --record /home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/install.log --single-version-externally-managed
+[2.905s] running egg_info
+[2.906s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.906s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.906s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.906s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.907s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.912s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.912s] adding license file 'LICENSE'
+[2.913s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.914s] running build
+[2.914s] running build_py
+[2.914s] running install
+[2.914s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.914s]   warnings.warn(
+[2.915s] running install_lib
+[2.918s] running install_data
+[2.918s] running install_egg_info
+[2.921s] removing '/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[2.922s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/amruth/Documents/git/ros_ws/WS/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.923s] running install_scripts
+[2.957s] Installing add_cli script to /home/amruth/Documents/git/ros_ws/WS/install/py_srvcli/lib/py_srvcli
+[2.958s] Installing add_ser script to /home/amruth/Documents/git/ros_ws/WS/install/py_srvcli/lib/py_srvcli
+[2.958s] writing list of installed files to '/home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/install.log'
+[3.149s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/src/py_srvcli' returned '0': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/build install --record /home/amruth/Documents/git/ros_ws/WS/build/py_srvcli/install.log --single-version-externally-managed

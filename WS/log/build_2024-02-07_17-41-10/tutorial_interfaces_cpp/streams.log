@@ -1,0 +1,28 @@
+[0.838s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp -- -j16 -l16
+[0.863s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.023s] -- Found geometry_msgs: 4.2.3 (/home/amruth/Documents/git/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.044s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.046s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.051s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.194s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.194s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[1.194s]   this project has asked CMake to find a package configuration file provided
+[1.194s]   by "rosidl_default_generators", but CMake did not find one.
+[1.194s] 
+[1.194s]   Could not find a package configuration file provided by
+[1.194s]   "rosidl_default_generators" with any of the following names:
+[1.194s] 
+[1.194s]     rosidl_default_generatorsConfig.cmake
+[1.194s]     rosidl_default_generators-config.cmake
+[1.194s] 
+[1.194s]   Add the installation prefix of "rosidl_default_generators" to
+[1.195s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[1.195s]   containing one of the above files.  If "rosidl_default_generators" provides
+[1.195s]   a separate development package or SDK, be sure it has been installed.
+[1.195s] 
+[1.195s] [0m
+[1.195s] -- Configuring incomplete, errors occurred!
+[1.195s] See also "/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/CMakeFiles/CMakeOutput.log".
+[1.197s] gmake: *** [Makefile:1410: cmake_check_build_system] Error 1

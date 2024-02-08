@@ -1,0 +1,48 @@
+[0.355s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/turtlesim -- -j16 -l16
+[0.418s] [  1%] Built target turtlesim__cpp
+[0.421s] [  9%] Built target turtlesim__rosidl_generator_c
+[0.428s] [  9%] Built target ament_cmake_python_copy_turtlesim
+[0.451s] [ 17%] Built target turtlesim__rosidl_typesupport_cpp
+[0.452s] [ 26%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[0.453s] [ 37%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.453s] [ 42%] Built target turtlesim__rosidl_typesupport_c
+[0.453s] [ 50%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.454s] [ 59%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[0.456s] [ 67%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.458s] [ 75%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.481s] [ 77%] Built target mimic
+[0.482s] [ 78%] Built target turtle_teleop_key
+[0.482s] [ 79%] Built target turtlesim
+[0.482s] [ 79%] Built target draw_square
+[0.488s] [ 84%] Built target turtlesim_node
+[0.508s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.667s] Error processing idl file: /home/amruth/Documents/git/ros_ws/WS/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl
+[0.667s] Traceback (most recent call last):
+[0.667s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+[0.667s]     sys.exit(main())
+[0.667s]              ^^^^^^
+[0.667s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+[0.667s]     generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+[0.667s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+[0.667s]     generated_files = generate_files(generator_arguments_file, mapping)
+[0.668s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.668s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 96, in generate_files
+[0.668s]     raise(e)
+[0.668s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[0.668s]     expand_template(
+[0.668s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 131, in expand_template
+[0.668s]     em.BUFFERED_OPT: True,
+[0.668s]     ^^^^^^^^^^^^^^^
+[0.668s] AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.673s] running egg_info
+[0.674s] writing turtlesim.egg-info/PKG-INFO
+[0.674s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.674s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.676s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.677s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.690s] gmake[2]: *** [turtlesim__py/CMakeFiles/turtlesim__py.dir/build.make:122: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_microxrcedds_c.c] Error 1
+[0.690s] gmake[1]: *** [CMakeFiles/Makefile2:796: turtlesim__py/CMakeFiles/turtlesim__py.dir/all] Error 2
+[0.690s] gmake[1]: *** Waiting for unfinished jobs....
+[0.712s] [ 85%] Built target ament_cmake_python_build_turtlesim_egg
+[0.712s] gmake: *** [Makefile:146: all] Error 2
+[0.713s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/turtlesim -- -j16 -l16

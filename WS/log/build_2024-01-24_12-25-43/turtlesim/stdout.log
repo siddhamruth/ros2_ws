@@ -1,0 +1,24 @@
+[  1%] Built target turtlesim__cpp
+[  9%] Built target turtlesim__rosidl_generator_c
+[  9%] Built target ament_cmake_python_copy_turtlesim
+[ 17%] Built target turtlesim__rosidl_typesupport_cpp
+[ 26%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[ 37%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target turtlesim__rosidl_typesupport_c
+[ 50%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 59%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[ 67%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 75%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 77%] Built target mimic
+[ 78%] Built target turtle_teleop_key
+[ 79%] Built target turtlesim
+[ 79%] Built target draw_square
+[ 84%] Built target turtlesim_node
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing turtlesim.egg-info/PKG-INFO
+writing dependency_links to turtlesim.egg-info/dependency_links.txt
+writing top-level names to turtlesim.egg-info/top_level.txt
+reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[ 85%] Built target ament_cmake_python_build_turtlesim_egg

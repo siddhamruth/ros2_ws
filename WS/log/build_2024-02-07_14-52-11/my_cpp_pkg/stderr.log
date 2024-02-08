@@ -1,0 +1,8 @@
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KAnimal::Animal(int)[m[K’:
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:8:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 |     Animal([01;35m[Kint age[m[K){};
+      |            [01;35m[K~~~~^~~[m[K
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:18:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode_3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   18 |     rclcpp::Node  *[01;35m[Knode_3[m[K = new rclcpp::Node("cpp_test_3");
+      |                    [01;35m[K^~~~~~[m[K

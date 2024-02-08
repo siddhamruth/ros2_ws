@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/my_py_pkg_2/my_py_pkg_2.egg-info
+writing ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/dependency_links.txt
+writing entry points to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/entry_points.txt
+writing requirements to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/requires.txt
+writing top-level names to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/top_level.txt
+writing manifest file '../../build/my_py_pkg_2/my_py_pkg_2.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_py_pkg_2/my_py_pkg_2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_py_pkg_2/my_py_pkg_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build
+creating /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build/lib
+creating /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build/lib/my_py_pkg_2
+copying my_py_pkg_2/__init__.py -> /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build/lib/my_py_pkg_2
+running install
+running install_lib
+creating /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages/my_py_pkg_2
+copying /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build/lib/my_py_pkg_2/__init__.py -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages/my_py_pkg_2
+byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages/my_py_pkg_2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/share/ament_index
+creating /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/share/ament_index/resource_index
+creating /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/share/ament_index/resource_index/packages
+copying resource/my_py_pkg_2 -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/share/my_py_pkg_2
+running install_egg_info
+Copying ../../build/my_py_pkg_2/my_py_pkg_2.egg-info to /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages/my_py_pkg_2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/install.log'

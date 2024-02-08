@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: my-py-pkg-2
+Version: 0.0.0
+Summary: A simple package created to learn ros2 from https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
+Home-page: UNKNOWN
+Maintainer: amruth
+Maintainer-email: siddhamruth@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

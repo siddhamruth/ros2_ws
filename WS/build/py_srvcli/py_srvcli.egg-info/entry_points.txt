@@ -1,0 +1,4 @@
+[console_scripts]
+add_cli = py_srvcli.client_add:main
+add_ser = py_srvcli.server_add:main
+

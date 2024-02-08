@@ -1,0 +1,15 @@
+[ 10%] Built target turtlesim__rosidl_generator_c
+[ 11%] Built target turtlesim__cpp
+[ 21%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 31%] Built target turtlesim__rosidl_typesupport_c
+[ 41%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 69%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 69%] Built target turtlesim__rosidl_typesupport_cpp
+[ 79%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 90%] Built target turtlesim
+[ 91%] Built target turtle_teleop_key
+[ 92%] Built target draw_square
+[ 94%] Built target mimic
+[100%] Built target turtlesim_node

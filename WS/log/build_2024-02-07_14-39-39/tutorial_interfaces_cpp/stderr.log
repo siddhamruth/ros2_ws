@@ -1,0 +1,22 @@
+TypeError when expanding '_idl.py.em' into '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_generator_py/tutorial_interfaces_cpp/msg/_num.py': Interpreter.string() got multiple values for argument 'locals'
+Error processing idl file: /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp/msg/Num.idl
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+    generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+    generated_files = generate_files(generator_arguments_file, mapping)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 96, in generate_files
+    raise(e)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+    expand_template(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+TypeError: Interpreter.string() got multiple values for argument 'locals'
+gmake[2]: *** [tutorial_interfaces_cpp__py/CMakeFiles/tutorial_interfaces_cpp__py.dir/build.make:158: rosidl_generator_py/tutorial_interfaces_cpp/_tutorial_interfaces_cpp_s.ep.rosidl_typesupport_microxrcedds_c.c] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:680: tutorial_interfaces_cpp__py/CMakeFiles/tutorial_interfaces_cpp__py.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

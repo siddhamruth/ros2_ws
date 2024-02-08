@@ -92,5 +92,5 @@
         "/opt/ros/foxy/lib/python3.8/site-packages"
     ],
     "ros.distro": "humble",
-    "cmake.sourceDirectory": "/home/nvidia/Documents/git/ros_ws/src/batt_led"
+    "cmake.sourceDirectory": "/home/amruth/Documents/git/ros_ws/Archive/batt_led"
 }
