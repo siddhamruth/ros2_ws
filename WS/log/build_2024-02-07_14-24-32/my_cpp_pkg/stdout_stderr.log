@@ -1,0 +1,37 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/cpp_node_1.dir/src/my_first_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cpp_node_3.dir/src/third_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_2.dir/src/second_node.cpp.o[0m
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KAnimal::Animal(int)[m[K’:
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:8:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 |     Animal([01;35m[Kint age[m[K){};
+      |            [01;35m[K~~~~^~~[m[K
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:18:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode_3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   18 |     rclcpp::Node  *[01;35m[Knode_3[m[K = new rclcpp::Node("cpp_test_3");
+      |                    [01;35m[K^~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable cpp_node_2[0m
+[ 83%] [32m[1mLinking CXX executable cpp_node_1[0m
+[ 83%] Built target cpp_node_2
+[100%] [32m[1mLinking CXX executable cpp_node_3[0m
+[100%] Built target cpp_node_1
+[100%] Built target cpp_node_3
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_1
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_2
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_3
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Symlinking: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

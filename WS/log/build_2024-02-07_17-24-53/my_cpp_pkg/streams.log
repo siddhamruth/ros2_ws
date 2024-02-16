@@ -1,0 +1,11 @@
+[1.718s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_1[0m
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_2[0m
+[2.741s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_3[0m
+[2.741s] [ 33%] [32m[1mLinking CXX executable cpp_node_1[0m
+[2.741s] [ 33%] [32m[1mLinking CXX executable cpp_node_3[0m
+[2.741s] [ 50%] [32m[1mLinking CXX executable cpp_node_2[0m
+[2.741s] [ 66%] Built target cpp_node_1
+[2.741s] [ 83%] Built target cpp_node_2
+[2.741s] [100%] Built target cpp_node_3
+[2.742s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16

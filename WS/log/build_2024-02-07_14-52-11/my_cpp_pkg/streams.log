@@ -1,0 +1,18 @@
+[1.729s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg --clean-first -- -j16 -l16
+[2.810s] [ 16%] [32mBuilding CXX object CMakeFiles/cpp_node_2.dir/src/second_node.cpp.o[0m
+[2.811s] [ 33%] [32mBuilding CXX object CMakeFiles/cpp_node_1.dir/src/my_first_node.cpp.o[0m
+[2.811s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_3.dir/src/third_node.cpp.o[0m
+[4.314s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KAnimal::Animal(int)[m[K’:
+[4.314s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:8:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.314s]     8 |     Animal([01;35m[Kint age[m[K){};
+[4.314s]       |            [01;35m[K~~~~^~~[m[K
+[4.318s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.318s] [01m[K/home/amruth/Documents/git/ros_ws/WS/src/my_cpp_pkg/src/my_first_node.cpp:18:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode_3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.318s]    18 |     rclcpp::Node  *[01;35m[Knode_3[m[K = new rclcpp::Node("cpp_test_3");
+[4.318s]       |                    [01;35m[K^~~~~~[m[K
+[5.380s] [ 66%] [32m[1mLinking CXX executable cpp_node_1[0m
+[5.495s] [ 83%] [32m[1mLinking CXX executable cpp_node_2[0m
+[5.616s] [ 83%] Built target cpp_node_1
+[5.706s] [ 83%] Built target cpp_node_2
+[5.991s] [100%] [32m[1mLinking CXX executable cpp_node_3[0m
+[6.342s] [100%] Built target cpp_node_3

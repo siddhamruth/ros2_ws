@@ -1,0 +1,44 @@
+[0.206s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp -- -j16 -l16
+[0.273s] [  1%] Built target tutorial_interfaces_cpp__cpp
+[0.277s] [ 10%] Built target tutorial_interfaces_cpp__rosidl_generator_c
+[0.289s] [ 10%] Built target ament_cmake_python_copy_tutorial_interfaces_cpp
+[0.300s] [ 18%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp
+[0.302s] [ 27%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp
+[0.303s] [ 35%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c
+[0.303s] [ 44%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp
+[0.305s] [ 59%] Built target tutorial_interfaces_cpp__rosidl_typesupport_cpp
+[0.305s] [ 61%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c
+[0.306s] [ 69%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_c
+[0.314s] [ 77%] Built target tutorial_interfaces_cpp__rosidl_typesupport_c
+[0.338s] [ 77%] Built target tutorial_interfaces_cpp
+[0.362s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.501s] Error processing idl file: /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp/msg/Num.idl
+[0.501s] Traceback (most recent call last):
+[0.502s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+[0.502s]     sys.exit(main())
+[0.502s]              ^^^^^^
+[0.502s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+[0.502s]     generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+[0.502s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+[0.502s]     generated_files = generate_files(generator_arguments_file, mapping)
+[0.502s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.503s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 96, in generate_files
+[0.503s]     raise(e)
+[0.503s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[0.503s]     expand_template(
+[0.503s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 131, in expand_template
+[0.503s]     em.BUFFERED_OPT: True,
+[0.503s]     ^^^^^^^^^^^^^^^
+[0.503s] AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.513s] running egg_info
+[0.514s] writing tutorial_interfaces_cpp.egg-info/PKG-INFO
+[0.514s] writing dependency_links to tutorial_interfaces_cpp.egg-info/dependency_links.txt
+[0.514s] writing top-level names to tutorial_interfaces_cpp.egg-info/top_level.txt
+[0.516s] reading manifest file 'tutorial_interfaces_cpp.egg-info/SOURCES.txt'
+[0.516s] writing manifest file 'tutorial_interfaces_cpp.egg-info/SOURCES.txt'
+[0.520s] gmake[2]: *** [tutorial_interfaces_cpp__py/CMakeFiles/tutorial_interfaces_cpp__py.dir/build.make:158: rosidl_generator_py/tutorial_interfaces_cpp/_tutorial_interfaces_cpp_s.ep.rosidl_typesupport_microxrcedds_c.c] Error 1
+[0.520s] gmake[1]: *** [CMakeFiles/Makefile2:680: tutorial_interfaces_cpp__py/CMakeFiles/tutorial_interfaces_cpp__py.dir/all] Error 2
+[0.520s] gmake[1]: *** Waiting for unfinished jobs....
+[0.546s] [ 79%] Built target ament_cmake_python_build_tutorial_interfaces_cpp_egg
+[0.547s] gmake: *** [Makefile:146: all] Error 2
+[0.550s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp -- -j16 -l16

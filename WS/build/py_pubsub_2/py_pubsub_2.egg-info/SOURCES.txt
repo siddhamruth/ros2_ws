@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_pubsub_2/py_pubsub_2.egg-info/PKG-INFO
+../../build/py_pubsub_2/py_pubsub_2.egg-info/SOURCES.txt
+../../build/py_pubsub_2/py_pubsub_2.egg-info/dependency_links.txt
+../../build/py_pubsub_2/py_pubsub_2.egg-info/entry_points.txt
+../../build/py_pubsub_2/py_pubsub_2.egg-info/requires.txt
+../../build/py_pubsub_2/py_pubsub_2.egg-info/top_level.txt
+../../build/py_pubsub_2/py_pubsub_2.egg-info/zip-safe
+py_pubsub_2/__init__.py
+py_pubsub_2/listener.py
+py_pubsub_2/talkerrrr.py
+resource/py_pubsub_2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,23 @@
+[2.743s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg_2': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg_2 build --build-base /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build install --record /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/install.log --single-version-externally-managed
+[3.169s] running egg_info
+[3.170s] writing ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/PKG-INFO
+[3.170s] writing dependency_links to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/dependency_links.txt
+[3.170s] writing entry points to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/entry_points.txt
+[3.170s] writing requirements to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/requires.txt
+[3.170s] writing top-level names to ../../build/my_py_pkg_2/my_py_pkg_2.egg-info/top_level.txt
+[3.177s] reading manifest file '../../build/my_py_pkg_2/my_py_pkg_2.egg-info/SOURCES.txt'
+[3.182s] adding license file 'LICENSE'
+[3.182s] writing manifest file '../../build/my_py_pkg_2/my_py_pkg_2.egg-info/SOURCES.txt'
+[3.182s] running build
+[3.182s] running build_py
+[3.183s] running install
+[3.183s] running install_lib
+[3.188s] running install_data
+[3.189s] running install_egg_info
+[3.189s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.189s]   warnings.warn(
+[3.189s] removing '/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages/my_py_pkg_2-0.0.0-py3.10.egg-info' (and everything under it)
+[3.192s] Copying ../../build/my_py_pkg_2/my_py_pkg_2.egg-info to /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages/my_py_pkg_2-0.0.0-py3.10.egg-info
+[3.192s] running install_scripts
+[3.227s] writing list of installed files to '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/install.log'
+[3.465s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg_2' returned '0': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg_2 build --build-base /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/build install --record /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg_2/install.log --single-version-externally-managed

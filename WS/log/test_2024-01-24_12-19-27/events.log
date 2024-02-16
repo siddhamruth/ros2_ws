@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_cpp_pkg', '/home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg')])}
+[0.000785] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_py_pkg', '/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg')])}
+[0.000932] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.059937] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099486] (-) TimerEvent: {}
+[0.200133] (-) TimerEvent: {}
+[0.300453] (-) TimerEvent: {}
+[0.360521] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amruth', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/amruth/Documents/git/microros_ws/install/visualization_msgs/lib:/home/amruth/Documents/git/microros_ws/install/test_msgs/lib:/home/amruth/Documents/git/microros_ws/install/example_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/action_msgs/lib:/home/amruth/Documents/git/microros_ws/install/unique_identifier_msgs/lib:/home/amruth/Documents/git/microros_ws/install/trajectory_msgs/lib:/home/amruth/Documents/git/microros_ws/install/stereo_msgs/lib:/home/amruth/Documents/git/microros_ws/install/std_srvs/lib:/home/amruth/Documents/git/microros_ws/install/shape_msgs/lib:/home/amruth/Documents/git/microros_ws/install/sensor_msgs/lib:/home/amruth/Documents/git/microros_ws/install/nav_msgs/lib:/home/amruth/Documents/git/microros_ws/install/diagnostic_msgs/lib:/home/amruth/Documents/git/microros_ws/install/geometry_msgs/lib:/home/amruth/Documents/git/microros_ws/install/actionlib_msgs/lib:/home/amruth/Documents/git/microros_ws/install/std_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/rmw_microxrcedds/lib:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/rclc_parameter/lib:/home/amruth/Documents/git/microros_ws/install/rclc/lib:/home/amruth/Documents/git/microros_ws/install/composition_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/microxrcedds_client/lib:/home/amruth/Documents/git/microros_ws/install/microcdr/lib:/home/amruth/Documents/git/microros_ws/install/micro_ros_utilities/lib:/home/amruth/Documents/git/microros_ws/install/micro_ros_agent/lib:/home/amruth/Documents/git/microros_ws/install/micro_ros_msgs/lib:/home/amruth/Documents/git/microros_ws/install/lifecycle_msgs/lib:/home/amruth/Documents/git/microros_ws/install/complex_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amruth', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/amruth/Documents/git/ros_ws', 'TERM_PROGRAM_VERSION': '1.79.2', 'DESKTOP_SESSION': 'pop', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3624', 'SYSTEMD_EXEC_PID': '4187', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '24309', '_colcon_cd_root': '/opt/ros/humble/', 'MANDATORY_PATH': '/usr/share/gconf/pop.mandatory.path', 'COLCON_PREFIX_PATH': '/home/amruth/Documents/git/ros_ws/WS/install:/home/amruth/Documents/git/microros_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'amruth', 'JOURNAL_STREAM': '8:49644', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/pop.default.path', 'USERNAME': 'amruth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/amruth/miniconda3/bin:/opt/ti/ccs1250/ccs/utils/tiobj2bin:/opt/ti/ccs1250/ccs/utils/cygwin:/opt/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib:/opt/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin:/home/amruth/.local/bin:/home/amruth/miniconda3/bin:/opt/ti/ccs1250/ccs/utils/tiobj2bin:/opt/ti/ccs1250/ccs/utils/cygwin:/opt/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib:/opt/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin:/opt/ros/humble/bin:/home/amruth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/popos:@/tmp/.ICE-unix/4163,unix/popos:/tmp/.ICE-unix/4163', 'INVOCATION_ID': '84b33ce305664afb87dbe71b2c084cc4', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-734c40f818.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg:/home/amruth/Documents/git/microros_ws/install/micro_ros_demos_rclc:/home/amruth/Documents/git/microros_ws/install/common_interfaces:/home/amruth/Documents/git/microros_ws/install/visualization_msgs:/home/amruth/Documents/git/microros_ws/install/test_msgs:/home/amruth/Documents/git/microros_ws/install/example_interfaces:/home/amruth/Documents/git/microros_ws/install/action_msgs:/home/amruth/Documents/git/microros_ws/install/unique_identifier_msgs:/home/amruth/Documents/git/microros_ws/install/trajectory_msgs:/home/amruth/Documents/git/microros_ws/install/stereo_msgs:/home/amruth/Documents/git/microros_ws/install/std_srvs:/home/amruth/Documents/git/microros_ws/install/shape_msgs:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/home/amruth/Documents/git/microros_ws/install/sensor_msgs:/home/amruth/Documents/git/microros_ws/install/nav_msgs:/home/amruth/Documents/git/microros_ws/install/diagnostic_msgs:/home/amruth/Documents/git/microros_ws/install/geometry_msgs:/home/amruth/Documents/git/microros_ws/install/actionlib_msgs:/home/amruth/Documents/git/microros_ws/install/std_msgs:/home/amruth/Documents/git/microros_ws/install/statistics_msgs:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/amruth/Documents/git/microros_ws/install/rmw_microxrcedds:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs:/home/amruth/Documents/git/microros_ws/install/rclc_parameter:/home/amruth/Documents/git/microros_ws/install/rclc:/home/amruth/Documents/git/microros_ws/install/composition_interfaces:/home/amruth/Documents/git/microros_ws/install/rcl_interfaces:/home/amruth/Documents/git/microros_ws/install/micro_ros_utilities:/home/amruth/Documents/git/microros_ws/install/micro_ros_setup:/home/amruth/Documents/git/microros_ws/install/micro_ros_agent:/home/amruth/Documents/git/microros_ws/install/micro_ros_msgs:/home/amruth/Documents/git/microros_ws/install/lifecycle_msgs:/home/amruth/Documents/git/microros_ws/install/complex_msgs:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'pop:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/amruth/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages:/home/amruth/Documents/git/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/amruth/Documents/git/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg:/home/amruth/Documents/git/microros_ws/install/micro_ros_demos_rclc:/home/amruth/Documents/git/microros_ws/install/common_interfaces:/home/amruth/Documents/git/microros_ws/install/visualization_msgs:/home/amruth/Documents/git/microros_ws/install/test_msgs:/home/amruth/Documents/git/microros_ws/install/example_interfaces:/home/amruth/Documents/git/microros_ws/install/action_msgs:/home/amruth/Documents/git/microros_ws/install/unique_identifier_msgs:/home/amruth/Documents/git/microros_ws/install/trajectory_msgs:/home/amruth/Documents/git/microros_ws/install/stereo_msgs:/home/amruth/Documents/git/microros_ws/install/std_srvs:/home/amruth/Documents/git/microros_ws/install/shape_msgs:/home/amruth/Documents/git/microros_ws/install/sensor_msgs:/home/amruth/Documents/git/microros_ws/install/nav_msgs:/home/amruth/Documents/git/microros_ws/install/diagnostic_msgs:/home/amruth/Documents/git/microros_ws/install/geometry_msgs:/home/amruth/Documents/git/microros_ws/install/actionlib_msgs:/home/amruth/Documents/git/microros_ws/install/std_msgs:/home/amruth/Documents/git/microros_ws/install/statistics_msgs:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/amruth/Documents/git/microros_ws/install/rmw_microxrcedds:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/amruth/Documents/git/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs:/home/amruth/Documents/git/microros_ws/install/rclc_parameter:/home/amruth/Documents/git/microros_ws/install/rclc:/home/amruth/Documents/git/microros_ws/install/composition_interfaces:/home/amruth/Documents/git/microros_ws/install/rcl_interfaces:/home/amruth/Documents/git/microros_ws/install/microxrcedds_client:/home/amruth/Documents/git/microros_ws/install/microcdr:/home/amruth/Documents/git/microros_ws/install/micro_ros_utilities:/home/amruth/Documents/git/microros_ws/install/micro_ros_setup:/home/amruth/Documents/git/microros_ws/install/micro_ros_agent:/home/amruth/Documents/git/microros_ws/install/micro_ros_msgs:/home/amruth/Documents/git/microros_ws/install/lifecycle_msgs:/home/amruth/Documents/git/microros_ws/install/complex_msgs:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/pytest.xml --junit-prefix=my_py_pkg -o cache_dir=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/.pytest_cache'}, 'shell': False}
+[0.364269] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[0.400583] (-) TimerEvent: {}
+[0.501221] (-) TimerEvent: {}
+[0.601468] (-) TimerEvent: {}
+[0.619161] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.619504] (my_py_pkg) StdoutLine: {'line': b'platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.622326] (my_py_pkg) StdoutLine: {'line': b'cachedir: /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/.pytest_cache\n'}
+[0.622487] (my_py_pkg) StdoutLine: {'line': b'rootdir: /home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg\n'}
+[0.622601] (my_py_pkg) StdoutLine: {'line': b'plugins: ament-lint-0.12.6, ament-copyright-0.12.6, ament-pep257-0.12.6, ament-flake8-0.12.6, launch-testing-1.0.4, launch-testing-ros-0.19.4, ament-xmllint-0.12.6, colcon-core-0.15.0, cov-3.0.0\n'}
+[0.688443] (my_py_pkg) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.688747] (my_py_pkg) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.689033] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.692830] (my_py_pkg) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.701556] (-) TimerEvent: {}
+[0.788470] (my_py_pkg) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.801684] (-) TimerEvent: {}
+[0.808120] (my_py_pkg) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.808422] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.808537] (my_py_pkg) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.808644] (my_py_pkg) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.808751] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.839504] (my_py_pkg) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.840090] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 22 code style errors / warnings:\x1b[0m\n'}
+[0.840169] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/first_node.py:5:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.840228] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/first_node.py:5:14: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.840337] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/first_node.py:5:16: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.840386] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/first_node.py:14:11: W292 no newline at end of file\x1b[0m\n'}
+[0.840436] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/robot_news_station.py:5:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.840485] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/robot_news_station.py:10:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.840533] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/robot_news_station.py:10:14: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.840582] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/robot_news_station.py:10:16: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.840631] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/robot_news_station.py:16:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[0.840682] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/robot_news_station.py:17:11: W292 no newline at end of file\x1b[0m\n'}
+[0.840731] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.840780] (my_py_pkg) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:12:53: E231 missing whitespace after ','\x1b[0m\n"}
+[0.840842] (my_py_pkg) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:13:30: E231 missing whitespace after ','\x1b[0m\n"}
+[0.840890] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:14:1: W293 blank line contains whitespace\x1b[0m\n'}
+[0.840939] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:16:21: E225 missing whitespace around operator\x1b[0m\n'}
+[0.840988] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:20:14: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.841037] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:20:16: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.841086] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:21:20: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.841134] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:21:22: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.841183] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:22:1: W293 blank line contains whitespace\x1b[0m\n'}
+[0.841231] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:24:1: W293 blank line contains whitespace\x1b[0m\n'}
+[0.841280] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./my_py_pkg/second_node.py:28:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[0.841336] (my_py_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.841385] (my_py_pkg) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.841434] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.841485] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/first_node.py:5:1: E302 expected 2 blank lines, found 1\n'}
+[0.841533] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.841581] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.841629] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.841677] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/first_node.py:5:14: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.841726] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.841774] (my_py_pkg) StdoutLine: {'line': b'             ^\n'}
+[0.841826] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.841894] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/first_node.py:5:16: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.841954] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.842003] (my_py_pkg) StdoutLine: {'line': b'               ^\n'}
+[0.842051] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.842101] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/first_node.py:14:11: W292 no newline at end of file\n'}
+[0.842150] (my_py_pkg) StdoutLine: {'line': b'    main()          ^\n'}
+[0.842199] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.842247] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/robot_news_station.py:5:1: E302 expected 2 blank lines, found 1\n'}
+[0.842312] (my_py_pkg) StdoutLine: {'line': b'class RobotNewsStation(Node):\n'}
+[0.842361] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.842409] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.842457] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/robot_news_station.py:10:1: E302 expected 2 blank lines, found 1\n'}
+[0.842505] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.842552] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.842601] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.842649] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/robot_news_station.py:10:14: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.842698] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.842748] (my_py_pkg) StdoutLine: {'line': b'             ^\n'}
+[0.842795] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.842843] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/robot_news_station.py:10:16: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.842899] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.842948] (my_py_pkg) StdoutLine: {'line': b'               ^\n'}
+[0.842998] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.843046] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/robot_news_station.py:16:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.843095] (my_py_pkg) StdoutLine: {'line': b'if __name__ == "main":\n'}
+[0.843144] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.843193] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.843242] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/robot_news_station.py:17:11: W292 no newline at end of file\n'}
+[0.843291] (my_py_pkg) StdoutLine: {'line': b'    main()          ^\n'}
+[0.843340] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.843388] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[0.843437] (my_py_pkg) StdoutLine: {'line': b'class My_Node(Node):\n'}
+[0.843486] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.843535] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.843585] (my_py_pkg) StdoutLine: {'line': b"./my_py_pkg/second_node.py:12:53: E231 missing whitespace after ','\n"}
+[0.843633] (my_py_pkg) StdoutLine: {'line': b'        self.get_logger().log("this is from the log",rclpy.logging.LoggingSeverity.ERROR)\n'}
+[0.843682] (my_py_pkg) StdoutLine: {'line': b'                                                    ^\n'}
+[0.843730] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.843779] (my_py_pkg) StdoutLine: {'line': b"./my_py_pkg/second_node.py:13:30: E231 missing whitespace after ','\n"}
+[0.843833] (my_py_pkg) StdoutLine: {'line': b'        self.create_timer(1.0,self.timer_callback)\n'}
+[0.843881] (my_py_pkg) StdoutLine: {'line': b'                             ^\n'}
+[0.843930] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.843979] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:14:1: W293 blank line contains whitespace\n'}
+[0.844029] (my_py_pkg) StdoutLine: {'line': b'    \n'}
+[0.844078] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.844126] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.844175] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:16:21: E225 missing whitespace around operator\n'}
+[0.844223] (my_py_pkg) StdoutLine: {'line': b'        self.counter+=1\n'}
+[0.844273] (my_py_pkg) StdoutLine: {'line': b'                    ^\n'}
+[0.844322] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.844371] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:20:14: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.844420] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.844469] (my_py_pkg) StdoutLine: {'line': b'             ^\n'}
+[0.844517] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.844566] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:20:16: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.844617] (my_py_pkg) StdoutLine: {'line': b'def main(args = None):\n'}
+[0.844666] (my_py_pkg) StdoutLine: {'line': b'               ^\n'}
+[0.844716] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.844763] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:21:20: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.844815] (my_py_pkg) StdoutLine: {'line': b'    rclpy.init(args = args)\n'}
+[0.844863] (my_py_pkg) StdoutLine: {'line': b'                   ^\n'}
+[0.844911] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.844959] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:21:22: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.845008] (my_py_pkg) StdoutLine: {'line': b'    rclpy.init(args = args)\n'}
+[0.845057] (my_py_pkg) StdoutLine: {'line': b'                     ^\n'}
+[0.845106] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.845155] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:22:1: W293 blank line contains whitespace\n'}
+[0.845204] (my_py_pkg) StdoutLine: {'line': b'    \n'}
+[0.845252] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.845301] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.845362] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:24:1: W293 blank line contains whitespace\n'}
+[0.845411] (my_py_pkg) StdoutLine: {'line': b'    \n'}
+[0.845460] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.845509] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.845557] (my_py_pkg) StdoutLine: {'line': b'./my_py_pkg/second_node.py:28:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.845606] (my_py_pkg) StdoutLine: {'line': b'if __name__ == ("__main__"):\n'}
+[0.845655] (my_py_pkg) StdoutLine: {'line': b'^\n'}
+[0.845704] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.845751] (my_py_pkg) StdoutLine: {'line': b'1     E225 missing whitespace around operator\n'}
+[0.845802] (my_py_pkg) StdoutLine: {'line': b"2     E231 missing whitespace after ','\n"}
+[0.845851] (my_py_pkg) StdoutLine: {'line': b'8     E251 unexpected spaces around keyword / parameter equals\n'}
+[0.845924] (my_py_pkg) StdoutLine: {'line': b'4     E302 expected 2 blank lines, found 1\n'}
+[0.845975] (my_py_pkg) StdoutLine: {'line': b'2     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.846024] (my_py_pkg) StdoutLine: {'line': b'2     W292 no newline at end of file\n'}
+[0.846074] (my_py_pkg) StdoutLine: {'line': b'3     W293 blank line contains whitespace\n'}
+[0.846123] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.846172] (my_py_pkg) StdoutLine: {'line': b'8 files checked\n'}
+[0.846221] (my_py_pkg) StdoutLine: {'line': b'22 errors\n'}
+[0.846271] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.846319] (my_py_pkg) StdoutLine: {'line': b"'E'-type errors: 17\n"}
+[0.846386] (my_py_pkg) StdoutLine: {'line': b"'W'-type errors: 5\n"}
+[0.846435] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.846484] (my_py_pkg) StdoutLine: {'line': b'Checked files:\n'}
+[0.846533] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.846582] (my_py_pkg) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.846630] (my_py_pkg) StdoutLine: {'line': b'* ./my_py_pkg/first_node.py\n'}
+[0.846678] (my_py_pkg) StdoutLine: {'line': b'* ./my_py_pkg/__init__.py\n'}
+[0.846727] (my_py_pkg) StdoutLine: {'line': b'* ./my_py_pkg/robot_news_station.py\n'}
+[0.846778] (my_py_pkg) StdoutLine: {'line': b'* ./my_py_pkg/second_node.py\n'}
+[0.846831] (my_py_pkg) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.846881] (my_py_pkg) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.846930] (my_py_pkg) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.846978] (my_py_pkg) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.847028] (my_py_pkg) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.847080] (my_py_pkg) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.847148] (my_py_pkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.847196] (my_py_pkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.847244] (my_py_pkg) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.847293] (my_py_pkg) StderrLine: {'line': b'\n'}
+[0.847341] (my_py_pkg) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.847390] (my_py_pkg) StdoutLine: {'line': b'- generated xml file: /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/pytest.xml -\n'}
+[0.847440] (my_py_pkg) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.847490] (my_py_pkg) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 22 code style...\n'}
+[0.847540] (my_py_pkg) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.22s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.901849] (-) TimerEvent: {}
+[0.918151] (my_py_pkg) CommandEnded: {'returncode': 1}
+[0.918510] (my_py_pkg) TestFailure: {'identifier': 'my_py_pkg'}
+[0.918533] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.919220] (-) EventReactorShutdown: {}

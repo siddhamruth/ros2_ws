@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_1")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_1"
-         OLD_RPATH "/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/lib:/home/amruth/miniconda3/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_1")
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_2")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_2"
-         OLD_RPATH "/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/lib:/home/amruth/miniconda3/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_2")
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_3")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_3"
-         OLD_RPATH "/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/amruth/Documents/git/microros_ws/install/rcl_interfaces/lib:/home/amruth/Documents/git/microros_ws/install/rosgraph_msgs/lib:/home/amruth/Documents/git/microros_ws/install/statistics_msgs/lib:/home/amruth/Documents/git/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/lib:/home/amruth/miniconda3/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_cpp_pkg/cpp_node_3")

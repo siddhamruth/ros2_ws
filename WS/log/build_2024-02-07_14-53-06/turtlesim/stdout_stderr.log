@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[  1%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_microxrcedds_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_microxrcedds_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[ 20%] Built target turtlesim__rosidl_typesupport_cpp
+[ 29%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 39%] Built target turtlesim__rosidl_typesupport_c
+[ 59%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[ 59%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[ 69%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[ 89%] Built target turtlesim
+[ 90%] Built target draw_square
+[ 92%] Built target turtle_teleop_key
+[ 94%] Built target mimic
+[100%] Built target turtlesim_node

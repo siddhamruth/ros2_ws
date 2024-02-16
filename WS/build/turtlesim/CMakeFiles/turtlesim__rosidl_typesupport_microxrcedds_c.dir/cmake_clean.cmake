@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/action/detail/microxrcedds/rotate_absolute__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/action/detail/microxrcedds/rotate_absolute__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/microxrcedds/color__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/microxrcedds/color__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/microxrcedds/pose__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/microxrcedds/pose__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/kill__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/kill__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/set_pen__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/set_pen__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/spawn__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/spawn__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/teleport_absolute__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/teleport_absolute__type_support_c.c.o.d"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/teleport_relative__type_support_c.c.o"
+  "CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/teleport_relative__type_support_c.c.o.d"
+  "libturtlesim__rosidl_typesupport_microxrcedds_c.pdb"
+  "libturtlesim__rosidl_typesupport_microxrcedds_c.so"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/action/detail/microxrcedds/rotate_absolute__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/color__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/microxrcedds/color__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/microxrcedds/pose__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/msg/detail/pose__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/kill__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/kill__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/set_pen__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/spawn__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/teleport_absolute__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/microxrcedds/teleport_relative__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/set_pen__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/spawn__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_microxrcedds_c.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/turtlesim__rosidl_typesupport_microxrcedds_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

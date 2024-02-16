@@ -1,4 +1,4 @@
 [console_scripts]
 py_node = my_py_pkg.first_node:main
-py_node_2 = my_py_pkg.second_node:main
+py_node_2 = my_py_pkg.second_node:mainrobot_news_station = my_py_pkg.robot_news_station:main
 

@@ -1,0 +1,51 @@
+[0.794s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build
+[1.048s] running develop
+[1.049s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.049s]   warnings.warn(
+[1.050s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.050s]   warnings.warn(
+[1.102s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.103s]   warnings.warn(
+[1.103s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.103s]   warnings.warn(
+[1.200s] Removing /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.231s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg' returned '0': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build
+[1.233s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build install --record /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/install.log --single-version-externally-managed
+[1.460s] running egg_info
+[1.461s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.461s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.461s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.461s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.461s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.465s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.465s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.465s] running build
+[1.465s] running build_py
+[1.466s] creating /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build
+[1.466s] creating /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib
+[1.466s] creating /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg
+[1.466s] copying my_py_pkg/first_node.py -> /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg
+[1.466s] copying my_py_pkg/__init__.py -> /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg
+[1.466s] copying my_py_pkg/robot_news_station.py -> /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg
+[1.466s] copying my_py_pkg/second_node.py -> /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg
+[1.466s] running install
+[1.466s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.466s]   warnings.warn(
+[1.466s] running install_lib
+[1.467s] creating /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.467s] copying /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg/first_node.py -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.467s] copying /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.467s] copying /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.468s] copying /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build/lib/my_py_pkg/second_node.py -> /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.468s] byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/first_node.py to first_node.cpython-310.pyc
+[1.468s] byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.468s] byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.468s] byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/second_node.py to second_node.cpython-310.pyc
+[1.469s] running install_data
+[1.469s] running install_egg_info
+[1.471s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.471s] running install_scripts
+[1.490s] Installing py_node script to /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/my_py_pkg
+[1.490s] Installing py_node_2 = my_py_pkg.second_node:mainrobot_news_station script to /home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/my_py_pkg
+[1.490s] writing list of installed files to '/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/install.log'
+[1.520s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg' returned '0': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/build install --record /home/amruth/Documents/git/ros_ws/WS/build/my_py_pkg/install.log --single-version-externally-managed

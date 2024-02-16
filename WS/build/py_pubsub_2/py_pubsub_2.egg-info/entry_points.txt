@@ -1,0 +1,4 @@
+[console_scripts]
+listenerrrr = py_pubsub_2.listener:main
+talkerrrr = py_pubsub_2.talkerrrr:main
+

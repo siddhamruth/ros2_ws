@@ -1,0 +1,40 @@
+[1.485s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/src/py_pubsub': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build install --record /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/install.log --single-version-externally-managed
+[1.711s] running egg_info
+[1.712s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.712s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.712s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.712s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.712s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.713s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.713s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.715s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.715s] adding license file 'LICENSE'
+[1.715s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.715s] running build
+[1.715s] running build_py
+[1.716s] creating /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build
+[1.716s] creating /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build/lib
+[1.716s] creating /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build/lib/py_pubsub
+[1.716s] copying py_pubsub/publisher_member_function.py -> /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build/lib/py_pubsub
+[1.716s] copying py_pubsub/__init__.py -> /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build/lib/py_pubsub
+[1.716s] running install
+[1.716s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.716s]   warnings.warn(
+[1.716s] running install_lib
+[1.717s] creating /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.717s] copying /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.717s] copying /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.718s] byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.718s] byte-compiling /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[1.718s] running install_data
+[1.719s] creating /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/share/ament_index
+[1.719s] creating /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/share/ament_index/resource_index
+[1.719s] creating /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/share/ament_index/resource_index/packages
+[1.719s] copying resource/py_pubsub -> /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/share/ament_index/resource_index/packages
+[1.719s] copying package.xml -> /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/share/py_pubsub
+[1.719s] running install_egg_info
+[1.721s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.722s] running install_scripts
+[1.742s] Installing talker script to /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/py_pubsub
+[1.742s] writing list of installed files to '/home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/install.log'
+[1.774s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/src/py_pubsub' returned '0': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/build install --record /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub/install.log --single-version-externally-managed

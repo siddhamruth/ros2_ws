@@ -1,0 +1,29 @@
+[1.398s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/turtlesim -- -j16 -l16
+[1.448s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[1.461s] [  1%] Built target turtlesim__cpp
+[1.468s] [ 11%] Built target turtlesim__rosidl_generator_c
+[1.483s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[1.483s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[1.486s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_microxrcedds_cpp[0m
+[1.488s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[1.491s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[1.492s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_microxrcedds_c[0m
+[1.493s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[1.497s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[1.512s] [ 20%] Built target turtlesim__rosidl_typesupport_cpp
+[1.513s] [ 29%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[1.517s] [ 39%] Built target turtlesim__rosidl_typesupport_c
+[1.518s] [ 59%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[1.518s] [ 59%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[1.522s] [ 69%] Built target turtlesim__rosidl_typesupport_introspection_c
+[1.522s] [ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[1.526s] [ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[1.538s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[1.539s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[1.541s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[1.544s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[1.571s] [ 89%] Built target turtlesim
+[1.574s] [ 90%] Built target draw_square
+[1.574s] [ 92%] Built target turtle_teleop_key
+[1.575s] [ 94%] Built target mimic
+[1.585s] [100%] Built target turtlesim_node

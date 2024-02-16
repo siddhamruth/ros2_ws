@@ -1,0 +1,23 @@
+[0.716s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/src/py_pubsub_2': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub_2 build --build-base /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/build install --record /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/install.log --single-version-externally-managed
+[0.936s] running egg_info
+[0.936s] writing ../../build/py_pubsub_2/py_pubsub_2.egg-info/PKG-INFO
+[0.937s] writing dependency_links to ../../build/py_pubsub_2/py_pubsub_2.egg-info/dependency_links.txt
+[0.937s] writing entry points to ../../build/py_pubsub_2/py_pubsub_2.egg-info/entry_points.txt
+[0.937s] writing requirements to ../../build/py_pubsub_2/py_pubsub_2.egg-info/requires.txt
+[0.937s] writing top-level names to ../../build/py_pubsub_2/py_pubsub_2.egg-info/top_level.txt
+[0.939s] reading manifest file '../../build/py_pubsub_2/py_pubsub_2.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/py_pubsub_2/py_pubsub_2.egg-info/SOURCES.txt'
+[0.940s] running build
+[0.940s] running build_py
+[0.940s] running install
+[0.941s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.941s]   warnings.warn(
+[0.941s] running install_lib
+[0.941s] running install_data
+[0.942s] running install_egg_info
+[0.943s] removing '/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2/lib/python3.10/site-packages/py_pubsub_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.944s] Copying ../../build/py_pubsub_2/py_pubsub_2.egg-info to /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2/lib/python3.10/site-packages/py_pubsub_2-0.0.0-py3.10.egg-info
+[0.944s] running install_scripts
+[0.961s] Installing talkerrrr = py_pubsub_2.talkerrrr:mainlistenerrrr script to /home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2/lib/py_pubsub_2
+[0.961s] writing list of installed files to '/home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/install.log'
+[0.987s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/src/py_pubsub_2' returned '0': PYTHONPATH=/home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/prefix_override:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub_2 build --build-base /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/build install --record /home/amruth/Documents/git/ros_ws/WS/build/py_pubsub_2/install.log --single-version-externally-managed

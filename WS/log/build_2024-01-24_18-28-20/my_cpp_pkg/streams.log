@@ -1,0 +1,27 @@
+[0.346s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16
+[1.447s] [ 33%] Built target cpp_node_2
+[1.448s] [ 66%] Built target cpp_node_1
+[1.449s] [100%] Built target cpp_node_3
+[1.449s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg -- -j16 -l16
+[1.520s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg
+[1.536s] -- Install configuration: ""
+[1.536s] -- Execute custom install script
+[1.537s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_1
+[1.537s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_2
+[1.538s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_3
+[1.538s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.538s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.539s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.539s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.539s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.539s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.539s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.540s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.540s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.540s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.540s] -- Symlinking: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.553s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.554s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.554s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.554s] -- Up-to-date symlink: /home/amruth/Documents/git/ros_ws/WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.557s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/amruth/Documents/git/ros_ws/WS/build/my_cpp_pkg

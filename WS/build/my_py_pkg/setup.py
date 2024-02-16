@@ -1,1 +1,0 @@
-/home/amruth/Documents/git/ros_ws/WS/src/my_py_pkg/setup.py

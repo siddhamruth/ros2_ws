@@ -1,0 +1,368 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found geometry_msgs: 4.2.3 (/home/amruth/Documents/git/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found std_srvs: 4.2.3 (/home/amruth/Documents/git/microros_ws/install/std_srvs/share/std_srvs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amruth/Documents/git/ros_ws/WS/build/turtlesim
+[  1%] Built target turtlesim__cpp
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_microxrcedds_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[ 11%] Built target turtlesim__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_microxrcedds_c[0m
+[ 20%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[ 30%] Built target turtlesim__rosidl_typesupport_microxrcedds_cpp
+[ 39%] Built target turtlesim__rosidl_typesupport_cpp
+[ 49%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 69%] Built target turtlesim__rosidl_typesupport_microxrcedds_c
+[35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[ 79%] Built target turtlesim__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[ 90%] Built target draw_square
+[ 92%] Built target turtle_teleop_key
+[ 94%] Built target mimic
+[ 94%] Built target turtlesim
+[100%] Built target turtlesim_node
+-- Install configuration: ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/environment/library_path.sh
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/environment/library_path.dsv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/microxrcedds
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail/microxrcedds
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_microxrcedds_c.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_microxrcedds_c.so" to ""
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/microxrcedds
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/microxrcedds/color__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/msg/detail/microxrcedds/pose__type_support_cpp.cpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds/teleport_absolute__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds/teleport_relative__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds/spawn__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds/kill__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/microxrcedds/set_pen__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail/microxrcedds
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/action/detail/microxrcedds/rotate_absolute__type_support_cpp.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_microxrcedds_cpp.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_microxrcedds_cpp.so" to ""
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action
+-- Up-to-date: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/msg/Color.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/msg/Pose.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Kill.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/SetPen.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Spawn.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/msg/Color.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/msg/Pose.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Kill.srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/SetPen.srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Spawn.srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/turtlesim_node
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/turtle_teleop_key
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/draw_square
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/draw_square" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/mimic
+-- Set runtime path of "/home/amruth/Documents/git/ros_ws/WS/install/turtlesim/lib/turtlesim/mimic" to ""
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/rolling.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/crystal.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/dashing.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/ardent.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/foxy.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/humble.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/bouncy.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/eloquent.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/images/galactic.png
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/launch
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/environment/path.sh
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/environment/path.dsv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/local_setup.bash
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/local_setup.sh
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/local_setup.zsh
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/local_setup.dsv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/package.dsv
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+-- Installing: /home/amruth/Documents/git/ros_ws/WS/install/turtlesim/share/turtlesim/package.xml

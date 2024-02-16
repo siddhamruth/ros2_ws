@@ -1,0 +1,89 @@
+[1.846s] Invoking command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp --clean-first -- -j16 -l16
+[2.225s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.250s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.267s] [  3%] Built target ament_cmake_python_copy_tutorial_interfaces_cpp
+[2.731s] running egg_info
+[2.733s] writing tutorial_interfaces_cpp.egg-info/PKG-INFO
+[2.734s] writing dependency_links to tutorial_interfaces_cpp.egg-info/dependency_links.txt
+[2.734s] writing top-level names to tutorial_interfaces_cpp.egg-info/top_level.txt
+[2.738s] reading manifest file 'tutorial_interfaces_cpp.egg-info/SOURCES.txt'
+[2.739s] writing manifest file 'tutorial_interfaces_cpp.egg-info/SOURCES.txt'
+[2.842s] [  3%] Built target ament_cmake_python_build_tutorial_interfaces_cpp_egg
+[2.934s] [  3%] Built target tutorial_interfaces_cpp__cpp
+[2.934s] [  5%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces_cpp/msg/detail/num__functions.c.o[0m
+[2.934s] [  6%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces_cpp/msg/detail/sphere__functions.c.o[0m
+[2.934s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces_cpp/srv/detail/add_three_ints__functions.c.o[0m
+[2.950s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.959s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.960s] [ 13%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[2.972s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.091s] [ 16%] [32m[1mLinking C shared library libtutorial_interfaces_cpp__rosidl_generator_c.so[0m
+[3.182s] [ 16%] Built target tutorial_interfaces_cpp__rosidl_generator_c
+[3.208s] [ 20%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[3.209s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.209s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.212s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.408s] [ 25%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces_cpp/msg/num__type_support.cpp.o[0m
+[3.412s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces_cpp/srv/add_three_ints__type_support.cpp.o[0m
+[3.412s] [ 28%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces_cpp/msg/sphere__type_support.cpp.o[0m
+[3.571s] [ 30%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/num__type_support_cpp.cpp.o[0m
+[3.591s] [ 32%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/srv/detail/microxrcedds/add_three_ints__type_support_cpp.cpp.o[0m
+[3.592s] [ 33%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/tutorial_interfaces_cpp/msg/detail/microxrcedds/sphere__type_support_cpp.cpp.o[0m
+[3.609s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces_cpp/msg/detail/num__type_support.cpp.o[0m
+[3.611s] [ 37%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces_cpp/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.630s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces_cpp/msg/detail/sphere__type_support.cpp.o[0m
+[3.638s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces_cpp/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.652s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces_cpp/srv/detail/add_three_ints__type_support.cpp.o[0m
+[3.652s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces_cpp/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[3.728s] [ 45%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces_cpp/msg/num__type_support.cpp.o[0m
+[3.857s] [ 47%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces_cpp/msg/sphere__type_support.cpp.o[0m
+[3.923s] [ 49%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces_cpp/srv/add_three_ints__type_support.cpp.o[0m
+[3.980s] [ 50%] [32m[1mLinking CXX shared library libtutorial_interfaces_cpp__rosidl_typesupport_cpp.so[0m
+[4.020s] [ 52%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces_cpp/msg/detail/num__type_support.c.o[0m
+[4.023s] [ 54%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces_cpp/msg/detail/sphere__type_support.c.o[0m
+[4.036s] [ 55%] [32m[1mLinking CXX shared library libtutorial_interfaces_cpp__rosidl_typesupport_c.so[0m
+[4.046s] [ 57%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/tutorial_interfaces_cpp/msg/detail/microxrcedds/num__type_support_c.c.o[0m
+[4.068s] [ 59%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces_cpp/srv/detail/add_three_ints__type_support.c.o[0m
+[4.120s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces_cpp/msg/detail/num__type_support_c.cpp.o[0m
+[4.147s] [ 61%] Built target tutorial_interfaces_cpp__rosidl_typesupport_cpp
+[4.165s] [ 62%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces_cpp/msg/detail/sphere__type_support_c.cpp.o[0m
+[4.170s] [ 64%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/tutorial_interfaces_cpp/msg/detail/microxrcedds/sphere__type_support_c.c.o[0m
+[4.184s] [ 66%] [32mBuilding C object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/tutorial_interfaces_cpp/srv/detail/microxrcedds/add_three_ints__type_support_c.c.o[0m
+[4.187s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces_cpp/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.213s] [ 69%] [32m[1mLinking C shared library libtutorial_interfaces_cpp__rosidl_typesupport_introspection_c.so[0m
+[4.232s] [ 69%] Built target tutorial_interfaces_cpp__rosidl_typesupport_c
+[4.338s] [ 71%] [32m[1mLinking CXX shared library libtutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp.so[0m
+[4.343s] [ 72%] [32m[1mLinking C shared library libtutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c.so[0m
+[4.401s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp.so[0m
+[4.411s] [ 74%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_c
+[4.468s] [ 74%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_c
+[4.493s] [ 74%] Built target tutorial_interfaces_cpp__rosidl_typesupport_microxrcedds_cpp
+[4.511s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.560s] [ 76%] Built target tutorial_interfaces_cpp__rosidl_typesupport_introspection_cpp
+[4.663s] [ 76%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_cpp
+[4.716s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c.so[0m
+[4.892s] [ 77%] Built target tutorial_interfaces_cpp__rosidl_typesupport_fastrtps_c
+[4.932s] [ 77%] Built target tutorial_interfaces_cpp
+[5.024s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.416s] Error processing idl file: /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp/rosidl_adapter/tutorial_interfaces_cpp/msg/Num.idl
+[5.416s] Traceback (most recent call last):
+[5.416s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+[5.416s]     sys.exit(main())
+[5.416s]              ^^^^^^
+[5.416s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+[5.416s]     generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+[5.416s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+[5.416s]     generated_files = generate_files(generator_arguments_file, mapping)
+[5.417s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5.417s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 96, in generate_files
+[5.417s]     raise(e)
+[5.417s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[5.417s]     expand_template(
+[5.417s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 131, in expand_template
+[5.417s]     em.BUFFERED_OPT: True,
+[5.417s]     ^^^^^^^^^^^^^^^
+[5.417s] AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[5.467s] gmake[2]: *** [tutorial_interfaces_cpp__py/CMakeFiles/tutorial_interfaces_cpp__py.dir/build.make:158: rosidl_generator_py/tutorial_interfaces_cpp/_tutorial_interfaces_cpp_s.ep.rosidl_typesupport_microxrcedds_c.c] Error 1
+[5.470s] gmake[1]: *** [CMakeFiles/Makefile2:680: tutorial_interfaces_cpp__py/CMakeFiles/tutorial_interfaces_cpp__py.dir/all] Error 2
+[5.472s] gmake: *** [Makefile:146: all] Error 2
+[5.488s] Invoked command in '/home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amruth/Documents/git/ros_ws/WS/install/py_srvcli:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub_2:/home/amruth/Documents/git/ros_ws/WS/install/py_pubsub:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg_2:/home/amruth/Documents/git/ros_ws/WS/install/my_py_pkg:/home/amruth/Documents/git/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/amruth/Documents/git/ros_ws/WS/build/tutorial_interfaces_cpp --clean-first -- -j16 -l16
